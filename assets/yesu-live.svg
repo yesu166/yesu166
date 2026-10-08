@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="t d">
+<title id="t">Yesuraja — Live Build Map</title>
+<desc id="d">Animated colorful ASCII portrait with neon gradient, scanline, particle field, and engineering profile panels.</desc>
+<defs>
+  <linearGradient id="rainbow" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#31d8ff"/><stop offset=".35" stop-color="#6f7cff"/>
+    <stop offset=".62" stop-color="#c45cff"/><stop offset=".84" stop-color="#ff3bb7"/><stop offset="1" stop-color="#32efbd"/>
+    <animateTransform attributeName="gradientTransform" type="translate" values="-420 0;280 0;-420 0" dur="7s" repeatCount="indefinite"/>
+  </linearGradient>
+  <radialGradient id="field" cx="50%" cy="50%">
+    <stop offset="0" stop-color="#ffffff" stop-opacity=".8"/><stop offset=".25" stop-color="#49dfff" stop-opacity=".35"/>
+    <stop offset="1" stop-color="#b45cff" stop-opacity="0"/>
+    <animate attributeName="cx" values="18%;78%;26%;82%;18%" dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="32%;68%;45%;22%;32%" dur="9s" repeatCount="indefinite"/>
+  </radialGradient>
+  <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+    <feGaussianBlur stdDeviation="1.8" result="b">
+      <animate attributeName="stdDeviation" values="1.4;2.8;1.4" dur="2.8s" repeatCount="indefinite"/>
+    </feGaussianBlur>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="9"/></filter>
+  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+    <path d="M24 0H0V24" fill="none" stroke="#173041" stroke-width="1" opacity=".45"/>
+  </pattern>
+  <clipPath id="portraitClip"><rect x="28" y="80" width="690" height="568" rx="16"/></clipPath>
+  <style>
+    .mono{font-family:"DejaVu Sans Mono","Cascadia Mono","Consolas",monospace}
+    .micro{font-family:"DejaVu Sans Mono","Cascadia Mono","Consolas",monospace;font-size:11px;letter-spacing:2px;fill:#91acbd}
+    .title{font-family:"DejaVu Sans Mono","Cascadia Mono","Consolas",monospace;font-weight:700;font-size:25px;letter-spacing:3px;fill:#edf8ff}
+    .portrait{font-family:"DejaVu Sans Mono","Cascadia Mono","Consolas",monospace;font-size:8px;font-weight:600;letter-spacing:.4px;fill:url(#rainbow);white-space:pre}
+    .cardTitle{font-family:"DejaVu Sans Mono","Cascadia Mono","Consolas",monospace;font-size:15px;font-weight:700;letter-spacing:.5px;fill:#e9f7ff}
+    .cardSub{font-family:"DejaVu Sans Mono","Cascadia Mono","Consolas",monospace;font-size:10px;letter-spacing:.6px;fill:#8fa8b7}
+  </style>
+</defs>
+
+<rect width="1200" height="720" rx="28" fill="#04070c"/>
+<rect x="20" y="20" width="1160" height="680" rx="22" fill="url(#grid)" opacity=".75"/>
+<rect x="20" y="20" width="1160" height="680" rx="22" fill="none" stroke="#203745" stroke-width="2"/>
+
+<text x="44" y="54" class="title">YESURAJA</text>
+<text x="278" y="52" class="micro">PERSONAL BUILD MAP // LIVE SVG PROFILE // MOTION ENABLED</text>
+<circle cx="1138" cy="46" r="6" fill="#56f0bd"><animate attributeName="r" values="5;8;5" dur="1.4s" repeatCount="indefinite"/></circle>
+
+<g clip-path="url(#portraitClip)">
+  <rect x="28" y="80" width="690" height="568" fill="url(#field)" opacity=".32" filter="url(#soft)"/>
+  <g filter="url(#glow)">
+    <text x="52" y="120" class="portrait" opacity="0.82">-------==---------------------------------------------------------------------------------==========</text>
+<text x="52" y="130" class="portrait" opacity="0.86">-------------------------------------------------------------------------------------------=========</text>
+<text x="52" y="140" class="portrait" opacity="0.8999999999999999">-------------------------------------------:::::::::::::------------------------------------========</text>
+<text x="52" y="150" class="portrait" opacity="0.94">---------------------------------------:::::::::::::::::::-------------------------------------=====</text>
+<text x="52" y="160" class="portrait" opacity="0.82">-----------------------------------:::::::::::-:::::::::::::::---------------------------------=====</text>
+<text x="52" y="170" class="portrait" opacity="0.86">----------------------------------::::::-=+#%%%%%*++++++-:::::::----------------------------------==</text>
+<text x="52" y="180" class="portrait" opacity="0.8999999999999999">---------------------------------:::::=%%%%%%@@@@@@@@%#%%#*+-=:::::::----------------------------===</text>
+<text x="52" y="190" class="portrait" opacity="0.94">--------------------------------::::-*%%@@@@@@@@@@@@@@@@@@@@%+**:::::--:--------------------------==</text>
+<text x="52" y="200" class="portrait" opacity="0.82">--------------------------------::-*%%@@@@@@@@@@@@@@@@@@@@@@@@%%*-:-==+-----------------------------</text>
+<text x="52" y="210" class="portrait" opacity="0.86">-------------------------------::-*%@@@@@@@@@@@@@@@@@@@@@@@@@@@@%#===++-----------------------------</text>
+<text x="52" y="220" class="portrait" opacity="0.8999999999999999">-----------------------------:::=%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%#+------------------------------</text>
+<text x="52" y="230" class="portrait" opacity="0.94">--------------------------:::::=#%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%+-=::--------------------------</text>
+<text x="52" y="240" class="portrait" opacity="0.82">---------------------------:::=#%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*+::--------------------------</text>
+<text x="52" y="250" class="portrait" opacity="0.86">--------------------------::::+%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%++-:--------------------------</text>
+<text x="52" y="260" class="portrait" opacity="0.8999999999999999">-------------------------::::-#%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%#+-::--------------------------</text>
+<text x="52" y="270" class="portrait" opacity="0.94">-----------------------::::::-*%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%#=-::::--------------------------</text>
+<text x="52" y="280" class="portrait" opacity="0.82">----------------------::::::::-=#@@@@@@@@@@@@@@%###%%%%@%%%%@@@%+==-:::::---------------------------</text>
+<text x="52" y="290" class="portrait" opacity="0.86">------------------:::::::::::::::-#%@@@@%@@@%####***##%%###*#@@*:::::::::::-------------------------</text>
+<text x="52" y="300" class="portrait" opacity="0.8999999999999999">------------------::::::::::::::::-%%*%@@%#*++++++++**%%%%%##@@--:::::::::::------------------------</text>
+<text x="52" y="310" class="portrait" opacity="0.94">----------------::::::::::::::::-*+*#+##%%@@%#+==+*%%@%%%%###@%##+:::::::::::-----------------------</text>
+<text x="52" y="320" class="portrait" opacity="0.82">---------------:::::::::::::::::-*====*#=*@++*++=*#%%=%@*%%#*%##%+:::::::::::::---------------------</text>
+<text x="52" y="330" class="portrait" opacity="0.86">----------------:::::::::::::::::==+====+++++++==*###*********%%#-::::::::::::----------------------</text>
+<text x="52" y="340" class="portrait" opacity="0.8999999999999999">--------------:::::::::::::::::::-+*=============+****+++++***%#+:::::::::::::::--------------------</text>
+<text x="52" y="350" class="portrait" opacity="0.94">--------------::::::::::::::::::::======-----===-+***+++++***##*-:::::::::::::::--------------------</text>
+<text x="52" y="360" class="portrait" opacity="0.82">--------------:::::::::::::::::::::======----===-+**#*+++****#*-::::::::::::::::--------------------</text>
+<text x="52" y="370" class="portrait" opacity="0.86">----------------:::::::::::::::::::::-====---===-+**#*+*****=:::::::::::::::::::--------------------</text>
+<text x="52" y="380" class="portrait" opacity="0.8999999999999999">---------------:--:::::::::::::::::::-========+++#%#*****#**-:::::::::::::::::::--------------------</text>
+<text x="52" y="390" class="portrait" opacity="0.94">-------------:-:::::::::::::::::::::::-====*####**#%%%%%#*#=::::::::::::::::::----------------------</text>
+<text x="52" y="400" class="portrait" opacity="0.82">---------------::::::::::::::::::::::::-===+*#***##%%%####*-::::::::::::::::::::--------------------</text>
+<text x="52" y="410" class="portrait" opacity="0.86">-----------------::::::::::::::::::::::=+==+++++++*########++-:::::::::::::::::---------------------</text>
+<text x="52" y="420" class="portrait" opacity="0.8999999999999999">----------------:::::::::::::::::::::-%:+++++++***#########--@=::::::::::::::::---------------------</text>
+<text x="52" y="430" class="portrait" opacity="0.94">------------------:::::::::::::::::-#%%..=++++*+**##%%####-:-@@#=::::::::::::-----------------------</text>
+<text x="52" y="440" class="portrait" opacity="0.82">------------------::::::::::::-=*%%%%%@:..:++*%%%%@%%%##*:::=@@@@@%+--:::::::-----------------------</text>
+<text x="52" y="450" class="portrait" opacity="0.86">------------------::::::::--#%@@@%%%%%@=....-+++++*###*:::::*@@@@@@@@@@#--::------------------------</text>
+<text x="52" y="460" class="portrait" opacity="0.8999999999999999">-------------------::::-#%@@@@@@@@%%@@@#......:*****#:..:::-#@@@@@@@@@@@@@%#------------------------</text>
+<text x="52" y="470" class="portrait" opacity="0.94">-------------------+#%%%@@@@@@@@@@@@@@@%=.......=--:....:::-%@@@@@@@@@@@@@@@@@%#=-------------------</text>
+<text x="52" y="480" class="portrait" opacity="0.82">--------------=*%%%%@@@@@@@@@@@@@@@@@@@@*....=%%%@@@@%-::::=@@@@@@@@@@@@@@@@@@@@@@%#=---------------</text>
+<text x="52" y="490" class="portrait" opacity="0.86">-------------*%@@@@@@@@@@@@@@@@@@@@@@@@@%-.:=:=@%%@@@*=-:::*@@@@@@@@@@@@@@@@@@@@@@@@@%=-------------</text>
+<text x="52" y="500" class="portrait" opacity="0.8999999999999999">-------------%@@@@@@@@@@@@@@@@@@@@@@@@@@%=:..:::@%@@+=:::::#@@@@@@@@@@@@@@@@@@@@@@@@@@#------------=</text>
+<text x="52" y="510" class="portrait" opacity="0.94">------------+%@@@@@@@@@@@@@@@@@@@@@@@@@@@=:...:.%@@%=:..:::%@@@@@@@@@@@@@@@@@@@@@@@@@@%=-----------=</text>
+<text x="52" y="520" class="portrait" opacity="0.82">-----------=%%@@@@@@@@@@@@@@@@@@@@@@@@@@@+:..::*@%@@+:..::=@@@@@@@@@@@@@@@@@@@@@@@@@@@@%---------===</text>
+<text x="52" y="530" class="portrait" opacity="0.86">-----------*%%@@@@@@@@@@@@@@@@@@@@@@@@@@@*-..:+%@%@@@-..-:+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*--------===</text>
+<text x="52" y="540" class="portrait" opacity="0.8999999999999999">----------=%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@%-..:*%%%@@@*.:-:%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%=-----=-===</text>
+<text x="52" y="550" class="portrait" opacity="0.94">----------%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@=.::%%%@@@@#.:--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#---=======</text>
+<text x="52" y="560" class="portrait" opacity="0.82">---------+%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@*:::%%@@@@@%.:-*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+--=======</text>
+<text x="52" y="570" class="portrait" opacity="0.86">=--------#%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%-:-@@@@@@@%.:-%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*--=======</text>
+<text x="52" y="580" class="portrait" opacity="0.8999999999999999">=-------+%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@=:=@@@@@@@@..=@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%=========</text>
+<text x="52" y="590" class="portrait" opacity="0.94">===-----#%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+-*@@@@@@@@:.#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+========</text>
+<text x="52" y="600" class="portrait" opacity="0.82">===----=%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%=#@@@@@@@@::@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#========</text>
+<text x="52" y="610" class="portrait" opacity="0.86">====---*%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+%@@@@@@@@:+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%========</text>
+<text x="52" y="620" class="portrait" opacity="0.8999999999999999">=====--#%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%@@@@@@@@:#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+=======</text>
+<text x="52" y="630" class="portrait" opacity="0.94">=======%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@=@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*=======</text>
+<text x="52" y="640" class="portrait" opacity="0.82">======+%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%=======</text>
+<text x="52" y="650" class="portrait" opacity="0.86">======#%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+======</text>
+<text x="52" y="660" class="portrait" opacity="0.8999999999999999">======%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#======</text>
+  </g>
+  <g opacity=".20" transform="translate(3 0)">
+    <text x="52" y="120" class="portrait" opacity="0.82">-------==---------------------------------------------------------------------------------==========</text>
+<text x="52" y="130" class="portrait" opacity="0.86">-------------------------------------------------------------------------------------------=========</text>
+<text x="52" y="140" class="portrait" opacity="0.8999999999999999">-------------------------------------------:::::::::::::------------------------------------========</text>
+<text x="52" y="150" class="portrait" opacity="0.94">---------------------------------------:::::::::::::::::::-------------------------------------=====</text>
+<text x="52" y="160" class="portrait" opacity="0.82">-----------------------------------:::::::::::-:::::::::::::::---------------------------------=====</text>
+<text x="52" y="170" class="portrait" opacity="0.86">----------------------------------::::::-=+#%%%%%*++++++-:::::::----------------------------------==</text>
+<text x="52" y="180" class="portrait" opacity="0.8999999999999999">---------------------------------:::::=%%%%%%@@@@@@@@%#%%#*+-=:::::::----------------------------===</text>
+<text x="52" y="190" class="portrait" opacity="0.94">--------------------------------::::-*%%@@@@@@@@@@@@@@@@@@@@%+**:::::--:--------------------------==</text>
+<text x="52" y="200" class="portrait" opacity="0.82">--------------------------------::-*%%@@@@@@@@@@@@@@@@@@@@@@@@%%*-:-==+-----------------------------</text>
+<text x="52" y="210" class="portrait" opacity="0.86">-------------------------------::-*%@@@@@@@@@@@@@@@@@@@@@@@@@@@@%#===++-----------------------------</text>
+<text x="52" y="220" class="portrait" opacity="0.8999999999999999">-----------------------------:::=%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%#+------------------------------</text>
+<text x="52" y="230" class="portrait" opacity="0.94">--------------------------:::::=#%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%+-=::--------------------------</text>
+<text x="52" y="240" class="portrait" opacity="0.82">---------------------------:::=#%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*+::--------------------------</text>
+<text x="52" y="250" class="portrait" opacity="0.86">--------------------------::::+%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%++-:--------------------------</text>
+<text x="52" y="260" class="portrait" opacity="0.8999999999999999">-------------------------::::-#%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%#+-::--------------------------</text>
+<text x="52" y="270" class="portrait" opacity="0.94">-----------------------::::::-*%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%#=-::::--------------------------</text>
+<text x="52" y="280" class="portrait" opacity="0.82">----------------------::::::::-=#@@@@@@@@@@@@@@%###%%%%@%%%%@@@%+==-:::::---------------------------</text>
+<text x="52" y="290" class="portrait" opacity="0.86">------------------:::::::::::::::-#%@@@@%@@@%####***##%%###*#@@*:::::::::::-------------------------</text>
+<text x="52" y="300" class="portrait" opacity="0.8999999999999999">------------------::::::::::::::::-%%*%@@%#*++++++++**%%%%%##@@--:::::::::::------------------------</text>
+<text x="52" y="310" class="portrait" opacity="0.94">----------------::::::::::::::::-*+*#+##%%@@%#+==+*%%@%%%%###@%##+:::::::::::-----------------------</text>
+<text x="52" y="320" class="portrait" opacity="0.82">---------------:::::::::::::::::-*====*#=*@++*++=*#%%=%@*%%#*%##%+:::::::::::::---------------------</text>
+<text x="52" y="330" class="portrait" opacity="0.86">----------------:::::::::::::::::==+====+++++++==*###*********%%#-::::::::::::----------------------</text>
+<text x="52" y="340" class="portrait" opacity="0.8999999999999999">--------------:::::::::::::::::::-+*=============+****+++++***%#+:::::::::::::::--------------------</text>
+<text x="52" y="350" class="portrait" opacity="0.94">--------------::::::::::::::::::::======-----===-+***+++++***##*-:::::::::::::::--------------------</text>
+<text x="52" y="360" class="portrait" opacity="0.82">--------------:::::::::::::::::::::======----===-+**#*+++****#*-::::::::::::::::--------------------</text>
+<text x="52" y="370" class="portrait" opacity="0.86">----------------:::::::::::::::::::::-====---===-+**#*+*****=:::::::::::::::::::--------------------</text>
+<text x="52" y="380" class="portrait" opacity="0.8999999999999999">---------------:--:::::::::::::::::::-========+++#%#*****#**-:::::::::::::::::::--------------------</text>
+<text x="52" y="390" class="portrait" opacity="0.94">-------------:-:::::::::::::::::::::::-====*####**#%%%%%#*#=::::::::::::::::::----------------------</text>
+<text x="52" y="400" class="portrait" opacity="0.82">---------------::::::::::::::::::::::::-===+*#***##%%%####*-::::::::::::::::::::--------------------</text>
+<text x="52" y="410" class="portrait" opacity="0.86">-----------------::::::::::::::::::::::=+==+++++++*########++-:::::::::::::::::---------------------</text>
+<text x="52" y="420" class="portrait" opacity="0.8999999999999999">----------------:::::::::::::::::::::-%:+++++++***#########--@=::::::::::::::::---------------------</text>
+<text x="52" y="430" class="portrait" opacity="0.94">------------------:::::::::::::::::-#%%..=++++*+**##%%####-:-@@#=::::::::::::-----------------------</text>
+<text x="52" y="440" class="portrait" opacity="0.82">------------------::::::::::::-=*%%%%%@:..:++*%%%%@%%%##*:::=@@@@@%+--:::::::-----------------------</text>
+<text x="52" y="450" class="portrait" opacity="0.86">------------------::::::::--#%@@@%%%%%@=....-+++++*###*:::::*@@@@@@@@@@#--::------------------------</text>
+<text x="52" y="460" class="portrait" opacity="0.8999999999999999">-------------------::::-#%@@@@@@@@%%@@@#......:*****#:..:::-#@@@@@@@@@@@@@%#------------------------</text>
+<text x="52" y="470" class="portrait" opacity="0.94">-------------------+#%%%@@@@@@@@@@@@@@@%=.......=--:....:::-%@@@@@@@@@@@@@@@@@%#=-------------------</text>
+<text x="52" y="480" class="portrait" opacity="0.82">--------------=*%%%%@@@@@@@@@@@@@@@@@@@@*....=%%%@@@@%-::::=@@@@@@@@@@@@@@@@@@@@@@%#=---------------</text>
+<text x="52" y="490" class="portrait" opacity="0.86">-------------*%@@@@@@@@@@@@@@@@@@@@@@@@@%-.:=:=@%%@@@*=-:::*@@@@@@@@@@@@@@@@@@@@@@@@@%=-------------</text>
+<text x="52" y="500" class="portrait" opacity="0.8999999999999999">-------------%@@@@@@@@@@@@@@@@@@@@@@@@@@%=:..:::@%@@+=:::::#@@@@@@@@@@@@@@@@@@@@@@@@@@#------------=</text>
+<text x="52" y="510" class="portrait" opacity="0.94">------------+%@@@@@@@@@@@@@@@@@@@@@@@@@@@=:...:.%@@%=:..:::%@@@@@@@@@@@@@@@@@@@@@@@@@@%=-----------=</text>
+<text x="52" y="520" class="portrait" opacity="0.82">-----------=%%@@@@@@@@@@@@@@@@@@@@@@@@@@@+:..::*@%@@+:..::=@@@@@@@@@@@@@@@@@@@@@@@@@@@@%---------===</text>
+<text x="52" y="530" class="portrait" opacity="0.86">-----------*%%@@@@@@@@@@@@@@@@@@@@@@@@@@@*-..:+%@%@@@-..-:+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*--------===</text>
+<text x="52" y="540" class="portrait" opacity="0.8999999999999999">----------=%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@%-..:*%%%@@@*.:-:%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%=-----=-===</text>
+<text x="52" y="550" class="portrait" opacity="0.94">----------%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@=.::%%%@@@@#.:--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#---=======</text>
+<text x="52" y="560" class="portrait" opacity="0.82">---------+%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@*:::%%@@@@@%.:-*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+--=======</text>
+<text x="52" y="570" class="portrait" opacity="0.86">=--------#%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%-:-@@@@@@@%.:-%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*--=======</text>
+<text x="52" y="580" class="portrait" opacity="0.8999999999999999">=-------+%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@=:=@@@@@@@@..=@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%=========</text>
+<text x="52" y="590" class="portrait" opacity="0.94">===-----#%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+-*@@@@@@@@:.#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+========</text>
+<text x="52" y="600" class="portrait" opacity="0.82">===----=%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%=#@@@@@@@@::@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#========</text>
+<text x="52" y="610" class="portrait" opacity="0.86">====---*%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+%@@@@@@@@:+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%========</text>
+<text x="52" y="620" class="portrait" opacity="0.8999999999999999">=====--#%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%@@@@@@@@:#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+=======</text>
+<text x="52" y="630" class="portrait" opacity="0.94">=======%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@=@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*=======</text>
+<text x="52" y="640" class="portrait" opacity="0.82">======+%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%=======</text>
+<text x="52" y="650" class="portrait" opacity="0.86">======#%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+======</text>
+<text x="52" y="660" class="portrait" opacity="0.8999999999999999">======%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#======</text>
+  </g>
+  <circle cx="40" cy="92" r="2.2" fill="url(#rainbow)" opacity=".55">
+    <animate attributeName="opacity" values=".12;.8;.2;.55;.12" dur="2.6s" begin="0s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="2.2;3.9600000000000004;2.2" dur="2.2s" begin="0s" repeatCount="indefinite"/>
+  </circle>
+<circle cx="123" cy="229" r="1" fill="url(#rainbow)" opacity=".55">
+    <animate attributeName="opacity" values=".12;.8;.2;.55;.12" dur="3s" begin="0.35s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="1;1.8;1" dur="2.5s" begin="0.35s" repeatCount="indefinite"/>
+  </circle>
+<circle cx="206" cy="366" r="1" fill="url(#rainbow)" opacity=".55">
+    <animate attributeName="opacity" values=".12;.8;.2;.55;.12" dur="3.4000000000000004s" begin="0.7s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="1;1.8;1" dur="2.8000000000000003s" begin="0.7s" repeatCount="indefinite"/>
+  </circle>
+<circle cx="289" cy="503" r="1.5" fill="url(#rainbow)" opacity=".55">
+    <animate attributeName="opacity" values=".12;.8;.2;.55;.12" dur="3.8000000000000003s" begin="1.0499999999999998s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="1.5;2.7;1.5" dur="3.1s" begin="1.0499999999999998s" repeatCount="indefinite"/>
+  </circle>
+<circle cx="372" cy="640" r="1" fill="url(#rainbow)" opacity=".55">
+    <animate attributeName="opacity" values=".12;.8;.2;.55;.12" dur="4.2s" begin="1.4s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="1;1.8;1" dur="2.2s" begin="1.4s" repeatCount="indefinite"/>
+  </circle>
+<circle cx="455" cy="217" r="1" fill="url(#rainbow)" opacity=".55">
+    <animate attributeName="opacity" values=".12;.8;.2;.55;.12" dur="2.6s" begin="1.75s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="1;1.8;1" dur="2.5s" begin="1.75s" repeatCount="indefinite"/>
+  </circle>
+<circle cx="538" cy="354" r="1.5" fill="url(#rainbow)" opacity=".55">
+    <animate attributeName="opacity" values=".12;.8;.2;.55;.12" dur="3s" begin="2.0999999999999996s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="1.5;2.7;1.5" dur="2.8000000000000003s" begin="2.0999999999999996s" repeatCount="indefinite"/>
+  </circle>
+<circle cx="621" cy="491" r="2.2" fill="url(#rainbow)" opacity=".55">
+    <animate attributeName="opacity" values=".12;.8;.2;.55;.12" dur="3.4000000000000004s" begin="2.4499999999999997s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="2.2;3.9600000000000004;2.2" dur="3.1s" begin="2.4499999999999997s" repeatCount="indefinite"/>
+  </circle>
+<circle cx="704" cy="628" r="1" fill="url(#rainbow)" opacity=".55">
+    <animate attributeName="opacity" values=".12;.8;.2;.55;.12" dur="3.8000000000000003s" begin="2.8s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="1;1.8;1" dur="2.2s" begin="2.8s" repeatCount="indefinite"/>
+  </circle>
+<circle cx="787" cy="205" r="1.5" fill="url(#rainbow)" opacity=".55">
+    <animate attributeName="opacity" values=".12;.8;.2;.55;.12" dur="4.2s" begin="0s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="1.5;2.7;1.5" dur="2.5s" begin="0s" repeatCount="indefinite"/>
+  </circle>
+<circle cx="870" cy="342" r="1" fill="url(#rainbow)" opacity=".55">
+    <animate attributeName="opacity" values=".12;.8;.2;.55;.12" dur="2.6s" begin="0.35s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="1;1.8;1" dur="2.8000000000000003s" begin="0.35s" repeatCount="indefinite"/>
+  </circle>
+<circle cx="953" cy="479" r="1" fill="url(#rainbow)" opacity=".55">
+    <animate attributeName="opacity" values=".12;.8;.2;.55;.12" dur="3s" begin="0.7s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="1;1.8;1" dur="3.1s" begin="0.7s" repeatCount="indefinite"/>
+  </circle>
+<circle cx="1036" cy="616" r="1.5" fill="url(#rainbow)" opacity=".55">
+    <animate attributeName="opacity" values=".12;.8;.2;.55;.12" dur="3.4000000000000004s" begin="1.0499999999999998s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="1.5;2.7;1.5" dur="2.2s" begin="1.0499999999999998s" repeatCount="indefinite"/>
+  </circle>
+<circle cx="1119" cy="193" r="1" fill="url(#rainbow)" opacity=".55">
+    <animate attributeName="opacity" values=".12;.8;.2;.55;.12" dur="3.8000000000000003s" begin="1.4s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="1;1.8;1" dur="2.5s" begin="1.4s" repeatCount="indefinite"/>
+  </circle>
+<circle cx="92" cy="330" r="2.2" fill="url(#rainbow)" opacity=".55">
+    <animate attributeName="opacity" values=".12;.8;.2;.55;.12" dur="4.2s" begin="1.75s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="2.2;3.9600000000000004;2.2" dur="2.8000000000000003s" begin="1.75s" repeatCount="indefinite"/>
+  </circle>
+<circle cx="175" cy="467" r="1.5" fill="url(#rainbow)" opacity=".55">
+    <animate attributeName="opacity" values=".12;.8;.2;.55;.12" dur="2.6s" begin="2.0999999999999996s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="1.5;2.7;1.5" dur="3.1s" begin="2.0999999999999996s" repeatCount="indefinite"/>
+  </circle>
+<circle cx="258" cy="604" r="1" fill="url(#rainbow)" opacity=".55">
+    <animate attributeName="opacity" values=".12;.8;.2;.55;.12" dur="3s" begin="2.4499999999999997s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="1;1.8;1" dur="2.2s" begin="2.4499999999999997s" repeatCount="indefinite"/>
+  </circle>
+<circle cx="341" cy="181" r="1" fill="url(#rainbow)" opacity=".55">
+    <animate attributeName="opacity" values=".12;.8;.2;.55;.12" dur="3.4000000000000004s" begin="2.8s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="1;1.8;1" dur="2.5s" begin="2.8s" repeatCount="indefinite"/>
+  </circle>
+<circle cx="424" cy="318" r="1.5" fill="url(#rainbow)" opacity=".55">
+    <animate attributeName="opacity" values=".12;.8;.2;.55;.12" dur="3.8000000000000003s" begin="0s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="1.5;2.7;1.5" dur="2.8000000000000003s" begin="0s" repeatCount="indefinite"/>
+  </circle>
+<circle cx="507" cy="455" r="1" fill="url(#rainbow)" opacity=".55">
+    <animate attributeName="opacity" values=".12;.8;.2;.55;.12" dur="4.2s" begin="0.35s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="1;1.8;1" dur="3.1s" begin="0.35s" repeatCount="indefinite"/>
+  </circle>
+<circle cx="590" cy="592" r="1" fill="url(#rainbow)" opacity=".55">
+    <animate attributeName="opacity" values=".12;.8;.2;.55;.12" dur="2.6s" begin="0.7s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="1;1.8;1" dur="2.2s" begin="0.7s" repeatCount="indefinite"/>
+  </circle>
+<circle cx="673" cy="169" r="2.2" fill="url(#rainbow)" opacity=".55">
+    <animate attributeName="opacity" values=".12;.8;.2;.55;.12" dur="3s" begin="1.0499999999999998s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="2.2;3.9600000000000004;2.2" dur="2.5s" begin="1.0499999999999998s" repeatCount="indefinite"/>
+  </circle>
+<circle cx="756" cy="306" r="1" fill="url(#rainbow)" opacity=".55">
+    <animate attributeName="opacity" values=".12;.8;.2;.55;.12" dur="3.4000000000000004s" begin="1.4s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="1;1.8;1" dur="2.8000000000000003s" begin="1.4s" repeatCount="indefinite"/>
+  </circle>
+<circle cx="839" cy="443" r="1" fill="url(#rainbow)" opacity=".55">
+    <animate attributeName="opacity" values=".12;.8;.2;.55;.12" dur="3.8000000000000003s" begin="1.75s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="1;1.8;1" dur="3.1s" begin="1.75s" repeatCount="indefinite"/>
+  </circle>
+<circle cx="922" cy="580" r="1.5" fill="url(#rainbow)" opacity=".55">
+    <animate attributeName="opacity" values=".12;.8;.2;.55;.12" dur="4.2s" begin="2.0999999999999996s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="1.5;2.7;1.5" dur="2.2s" begin="2.0999999999999996s" repeatCount="indefinite"/>
+  </circle>
+<circle cx="1005" cy="157" r="1" fill="url(#rainbow)" opacity=".55">
+    <animate attributeName="opacity" values=".12;.8;.2;.55;.12" dur="2.6s" begin="2.4499999999999997s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="1;1.8;1" dur="2.5s" begin="2.4499999999999997s" repeatCount="indefinite"/>
+  </circle>
+<circle cx="1088" cy="294" r="1" fill="url(#rainbow)" opacity=".55">
+    <animate attributeName="opacity" values=".12;.8;.2;.55;.12" dur="3s" begin="2.8s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="1;1.8;1" dur="2.8000000000000003s" begin="2.8s" repeatCount="indefinite"/>
+  </circle>
+<circle cx="61" cy="431" r="1.5" fill="url(#rainbow)" opacity=".55">
+    <animate attributeName="opacity" values=".12;.8;.2;.55;.12" dur="3.4000000000000004s" begin="0s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="1.5;2.7;1.5" dur="3.1s" begin="0s" repeatCount="indefinite"/>
+  </circle>
+<circle cx="144" cy="568" r="2.2" fill="url(#rainbow)" opacity=".55">
+    <animate attributeName="opacity" values=".12;.8;.2;.55;.12" dur="3.8000000000000003s" begin="0.35s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="2.2;3.9600000000000004;2.2" dur="2.2s" begin="0.35s" repeatCount="indefinite"/>
+  </circle>
+<circle cx="227" cy="145" r="1" fill="url(#rainbow)" opacity=".55">
+    <animate attributeName="opacity" values=".12;.8;.2;.55;.12" dur="4.2s" begin="0.7s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="1;1.8;1" dur="2.5s" begin="0.7s" repeatCount="indefinite"/>
+  </circle>
+<circle cx="310" cy="282" r="1.5" fill="url(#rainbow)" opacity=".55">
+    <animate attributeName="opacity" values=".12;.8;.2;.55;.12" dur="2.6s" begin="1.0499999999999998s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="1.5;2.7;1.5" dur="2.8000000000000003s" begin="1.0499999999999998s" repeatCount="indefinite"/>
+  </circle>
+<circle cx="393" cy="419" r="1" fill="url(#rainbow)" opacity=".55">
+    <animate attributeName="opacity" values=".12;.8;.2;.55;.12" dur="3s" begin="1.4s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="1;1.8;1" dur="3.1s" begin="1.4s" repeatCount="indefinite"/>
+  </circle>
+<circle cx="476" cy="556" r="1" fill="url(#rainbow)" opacity=".55">
+    <animate attributeName="opacity" values=".12;.8;.2;.55;.12" dur="3.4000000000000004s" begin="1.75s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="1;1.8;1" dur="2.2s" begin="1.75s" repeatCount="indefinite"/>
+  </circle>
+<circle cx="559" cy="133" r="1.5" fill="url(#rainbow)" opacity=".55">
+    <animate attributeName="opacity" values=".12;.8;.2;.55;.12" dur="3.8000000000000003s" begin="2.0999999999999996s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="1.5;2.7;1.5" dur="2.5s" begin="2.0999999999999996s" repeatCount="indefinite"/>
+  </circle>
+<circle cx="642" cy="270" r="1" fill="url(#rainbow)" opacity=".55">
+    <animate attributeName="opacity" values=".12;.8;.2;.55;.12" dur="4.2s" begin="2.4499999999999997s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="1;1.8;1" dur="2.8000000000000003s" begin="2.4499999999999997s" repeatCount="indefinite"/>
+  </circle>
+<circle cx="725" cy="407" r="2.2" fill="url(#rainbow)" opacity=".55">
+    <animate attributeName="opacity" values=".12;.8;.2;.55;.12" dur="2.6s" begin="2.8s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="2.2;3.9600000000000004;2.2" dur="3.1s" begin="2.8s" repeatCount="indefinite"/>
+  </circle>
+<circle cx="808" cy="544" r="1.5" fill="url(#rainbow)" opacity=".55">
+    <animate attributeName="opacity" values=".12;.8;.2;.55;.12" dur="3s" begin="0s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="1.5;2.7;1.5" dur="2.2s" begin="0s" repeatCount="indefinite"/>
+  </circle>
+<circle cx="891" cy="121" r="1" fill="url(#rainbow)" opacity=".55">
+    <animate attributeName="opacity" values=".12;.8;.2;.55;.12" dur="3.4000000000000004s" begin="0.35s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="1;1.8;1" dur="2.5s" begin="0.35s" repeatCount="indefinite"/>
+  </circle>
+<circle cx="974" cy="258" r="1" fill="url(#rainbow)" opacity=".55">
+    <animate attributeName="opacity" values=".12;.8;.2;.55;.12" dur="3.8000000000000003s" begin="0.7s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="1;1.8;1" dur="2.8000000000000003s" begin="0.7s" repeatCount="indefinite"/>
+  </circle>
+<circle cx="1057" cy="395" r="1.5" fill="url(#rainbow)" opacity=".55">
+    <animate attributeName="opacity" values=".12;.8;.2;.55;.12" dur="4.2s" begin="1.0499999999999998s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="1.5;2.7;1.5" dur="3.1s" begin="1.0499999999999998s" repeatCount="indefinite"/>
+  </circle>
+<circle cx="1140" cy="532" r="1" fill="url(#rainbow)" opacity=".55">
+    <animate attributeName="opacity" values=".12;.8;.2;.55;.12" dur="2.6s" begin="1.4s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="1;1.8;1" dur="2.2s" begin="1.4s" repeatCount="indefinite"/>
+  </circle>
+<circle cx="113" cy="109" r="1" fill="url(#rainbow)" opacity=".55">
+    <animate attributeName="opacity" values=".12;.8;.2;.55;.12" dur="3s" begin="1.75s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="1;1.8;1" dur="2.5s" begin="1.75s" repeatCount="indefinite"/>
+  </circle>
+<circle cx="196" cy="246" r="2.2" fill="url(#rainbow)" opacity=".55">
+    <animate attributeName="opacity" values=".12;.8;.2;.55;.12" dur="3.4000000000000004s" begin="2.0999999999999996s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="2.2;3.9600000000000004;2.2" dur="2.8000000000000003s" begin="2.0999999999999996s" repeatCount="indefinite"/>
+  </circle>
+<circle cx="279" cy="383" r="1" fill="url(#rainbow)" opacity=".55">
+    <animate attributeName="opacity" values=".12;.8;.2;.55;.12" dur="3.8000000000000003s" begin="2.4499999999999997s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="1;1.8;1" dur="3.1s" begin="2.4499999999999997s" repeatCount="indefinite"/>
+  </circle>
+<circle cx="362" cy="520" r="1" fill="url(#rainbow)" opacity=".55">
+    <animate attributeName="opacity" values=".12;.8;.2;.55;.12" dur="4.2s" begin="2.8s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="1;1.8;1" dur="2.2s" begin="2.8s" repeatCount="indefinite"/>
+  </circle>
+<circle cx="445" cy="97" r="1.5" fill="url(#rainbow)" opacity=".55">
+    <animate attributeName="opacity" values=".12;.8;.2;.55;.12" dur="2.6s" begin="0s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="1.5;2.7;1.5" dur="2.5s" begin="0s" repeatCount="indefinite"/>
+  </circle>
+<circle cx="528" cy="234" r="1" fill="url(#rainbow)" opacity=".55">
+    <animate attributeName="opacity" values=".12;.8;.2;.55;.12" dur="3s" begin="0.35s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="1;1.8;1" dur="2.8000000000000003s" begin="0.35s" repeatCount="indefinite"/>
+  </circle>
+<circle cx="611" cy="371" r="1" fill="url(#rainbow)" opacity=".55">
+    <animate attributeName="opacity" values=".12;.8;.2;.55;.12" dur="3.4000000000000004s" begin="0.7s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="1;1.8;1" dur="3.1s" begin="0.7s" repeatCount="indefinite"/>
+  </circle>
+<circle cx="694" cy="508" r="1.5" fill="url(#rainbow)" opacity=".55">
+    <animate attributeName="opacity" values=".12;.8;.2;.55;.12" dur="3.8000000000000003s" begin="1.0499999999999998s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="1.5;2.7;1.5" dur="2.2s" begin="1.0499999999999998s" repeatCount="indefinite"/>
+  </circle>
+<circle cx="777" cy="645" r="2.2" fill="url(#rainbow)" opacity=".55">
+    <animate attributeName="opacity" values=".12;.8;.2;.55;.12" dur="4.2s" begin="1.4s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="2.2;3.9600000000000004;2.2" dur="2.5s" begin="1.4s" repeatCount="indefinite"/>
+  </circle>
+<circle cx="860" cy="222" r="1" fill="url(#rainbow)" opacity=".55">
+    <animate attributeName="opacity" values=".12;.8;.2;.55;.12" dur="2.6s" begin="1.75s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="1;1.8;1" dur="2.8000000000000003s" begin="1.75s" repeatCount="indefinite"/>
+  </circle>
+<circle cx="943" cy="359" r="1.5" fill="url(#rainbow)" opacity=".55">
+    <animate attributeName="opacity" values=".12;.8;.2;.55;.12" dur="3s" begin="2.0999999999999996s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="1.5;2.7;1.5" dur="3.1s" begin="2.0999999999999996s" repeatCount="indefinite"/>
+  </circle>
+  <rect x="30" y="84" width="686" height="3" fill="url(#rainbow)" opacity=".75">
+    <animate attributeName="y" values="88;635;88" dur="4.6s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="30" y="84" width="686" height="1" fill="#ffffff" opacity=".6">
+    <animate attributeName="y" values="90;640;90" dur="4.6s" repeatCount="indefinite"/>
+  </rect>
+</g>
+
+<rect x="28" y="80" width="690" height="568" rx="16" fill="none" stroke="#25404f" stroke-width="2"/>
+<text x="48" y="105" class="micro" fill="#5fdcff">YESURAJA // ASCII IDENTITY BUFFER</text>
+
+<line x1="738" y1="80" x2="738" y2="648" stroke="#233c4b" stroke-width="1"/>
+<text x="774" y="108" class="micro">ENGINEER / BUILDER / EXPLORER</text>
+<text x="774" y="140" class="cardTitle">Software · AI/ML</text>
+<text x="774" y="162" class="cardTitle" fill="#78dfff">Embedded · Full-Stack</text>
+
+<g>
+  <rect x="770" y="190" width="374" height="78" rx="12" fill="#071018" stroke="#213b4b"/>
+  <rect x="786" y="209" width="12" height="40" rx="3" fill="none" stroke="#ffad43" stroke-width="3"/>
+  <text x="816" y="217" class="cardTitle" fill="#ffad43">HONEYCHAIN</text>
+  <text x="816" y="240" class="cardSub">Blockchain · AI · Supply Chain</text>
+  <text x="1111" y="226" class="cardTitle">→</text>
+  <rect x="771" y="191" width="372" height="3" fill="#ffad43" opacity=".35">
+    <animate attributeName="opacity" values=".15;.7;.15" dur="2.4s" repeatCount="indefinite"/>
+  </rect>
+</g>
+
+<g>
+  <rect x="770" y="281" width="374" height="78" rx="12" fill="#071018" stroke="#213b4b"/>
+  <rect x="786" y="300" width="12" height="40" rx="3" fill="none" stroke="#ad6bff" stroke-width="3"/>
+  <text x="816" y="308" class="cardTitle" fill="#ad6bff">GWEN AGENTIC AI</text>
+  <text x="816" y="331" class="cardSub">Qwen · Tools · Real Devices</text>
+  <text x="1111" y="317" class="cardTitle">→</text>
+  <rect x="771" y="282" width="372" height="3" fill="#ad6bff" opacity=".35">
+    <animate attributeName="opacity" values=".15;.7;.15" dur="2.7s" repeatCount="indefinite"/>
+  </rect>
+</g>
+
+<g>
+  <rect x="770" y="372" width="374" height="78" rx="12" fill="#071018" stroke="#213b4b"/>
+  <rect x="786" y="391" width="12" height="40" rx="3" fill="none" stroke="#4af0bd" stroke-width="3"/>
+  <text x="816" y="399" class="cardTitle" fill="#4af0bd">SMART GLOVES</text>
+  <text x="816" y="422" class="cardSub">Embedded · ML · Sign Language</text>
+  <text x="1111" y="408" class="cardTitle">→</text>
+</g>
+
+<g>
+  <rect x="770" y="463" width="374" height="78" rx="12" fill="#071018" stroke="#213b4b"/>
+  <rect x="786" y="482" width="12" height="40" rx="3" fill="none" stroke="#57bfff" stroke-width="3"/>
+  <text x="816" y="490" class="cardTitle" fill="#57bfff">FULL-STACK BUILDS</text>
+  <text x="816" y="513" class="cardSub">Web · Mobile · APIs</text>
+  <text x="1111" y="499" class="cardTitle">→</text>
+</g>
+
+<rect x="770" y="555" width="374" height="72" rx="12" fill="#071018" stroke="#213b4b"/>
+<circle cx="790" cy="579" r="5" fill="#53f2b6"><animate attributeName="r" values="4;7;4" dur="1.5s" repeatCount="indefinite"/></circle>
+<text x="810" y="584" class="micro" fill="#a4c1ce">CURRENTLY EXPLORING</text>
+<text x="790" y="609" class="cardSub">AI AGENTS   ·   EDGE AI   ·   BLOCKCHAIN   ·   FLUTTER</text>
+
+<text x="48" y="675" class="micro">HONEYCHAIN · GWEN · GITHUB · PROJECTS · ABOUT</text>
+<text x="850" y="675" class="micro" fill="#5fdcff">AUTONOMOUS PARTICLE FIELD // SVG LOOP</text>
+</svg>
