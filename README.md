@@ -8,7 +8,7 @@ I build systems where software has to **work in the real world** — across apps
 
 <br/>
 
-<img src="./assets/yesu-ascii.svg" alt="Yesuraja ASCII portrait" width="100%" />
+<img src="./assets/yesu-live.svg" alt="Yesuraja live animated build map" width="100%" />
 
 <br/>
 
