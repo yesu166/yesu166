@@ -1,91 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 760" role="img" aria-labelledby="t d">
-<title id="t">Yesuraja — animated ASCII developer profile</title>
-<desc id="d">Full-width animated ASCII portrait for Yesuraja, a second-year B.E. Computer Science and Engineering student specializing in AI and ML.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 850" role="img" aria-labelledby="title desc">
+<title id="title">YESURAJA — yesu166 — B.E. CSE AI &amp; ML</title>
+<desc id="desc">A static, GitHub-safe full-width ASCII identity hero for Yesuraja, a second-year Computer Science and Engineering student focused on AI and Machine Learning.</desc>
 <defs>
-<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050811"/><stop offset=".55" stop-color="#0c0817"/><stop offset="1" stop-color="#030a12"/></linearGradient>
-<linearGradient id="ink" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#35ddff"/><stop offset=".24" stop-color="#5ca8ff"/><stop offset=".47" stop-color="#a667ff"/><stop offset=".68" stop-color="#ff58c1"/><stop offset=".84" stop-color="#ff9a52"/><stop offset="1" stop-color="#63f2c8"><animateTransform attributeName="gradientTransform" type="translate" values="-900 0;900 0;-900 0" dur="8.5s" repeatCount="indefinite"/></linearGradient>
-<linearGradient id="name" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#58e6ff"/><stop offset=".4" stop-color="#ffffff"/><stop offset=".65" stop-color="#c8a2ff"/><stop offset=".85" stop-color="#ff6cc8"/><stop offset="1" stop-color="#6bffd6"><animateTransform attributeName="gradientTransform" type="translate" values="-450 0;450 0;-450 0" dur="6s" repeatCount="indefinite"/></linearGradient>
-<pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#152636" stroke-width="1" opacity=".34"/></pattern>
-<radialGradient id="aura" cx="50%" cy="47%" r="58%"><stop stop-color="#51dbff" stop-opacity=".16"/><stop offset=".38" stop-color="#a667ff" stop-opacity=".09"/><stop offset="1" stop-color="#ff50b9" stop-opacity="0"/></radialGradient>
-<filter id="glow" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="1.8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-<filter id="nameGlow" x="-30%" y="-40%" width="160%" height="180%"><feGaussianBlur stdDeviation="5.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-<style>
-.mono,.micro,.ascii,.tiny{font-family:"DejaVu Sans Mono","Cascadia Mono","Consolas",monospace}
-.micro{font-size:11px;letter-spacing:2.2px}.ascii{font-size:10px;font-weight:600;letter-spacing:3px;fill:url(#ink);white-space:pre;filter:url(#glow)}.tiny{font-size:10px;letter-spacing:1.6px;fill:#8da8b6}
-@keyframes dash{to{stroke-dashoffset:-180}}
-</style>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#050912"/>
+    <stop offset=".52" stop-color="#0b0717"/>
+    <stop offset="1" stop-color="#050b12"/>
+  </linearGradient>
+  <linearGradient id="ink" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#42e8ff"/>
+    <stop offset=".24" stop-color="#57a7ff"/>
+    <stop offset=".48" stop-color="#a56dff"/>
+    <stop offset=".70" stop-color="#ff65c7"/>
+    <stop offset=".86" stop-color="#ffa15c"/>
+    <stop offset="1" stop-color="#67f0ca"/>
+  </linearGradient>
+  <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#42e8ff"/>
+    <stop offset=".36" stop-color="#ffffff"/>
+    <stop offset=".62" stop-color="#c4a6ff"/>
+    <stop offset=".84" stop-color="#ff69c9"/>
+    <stop offset="1" stop-color="#67f0ca"/>
+  </linearGradient>
+  <radialGradient id="aura" cx="50%" cy="46%" r="60%">
+    <stop offset="0" stop-color="#4ddfff" stop-opacity=".15"/>
+    <stop offset=".42" stop-color="#9a63ff" stop-opacity=".08"/>
+    <stop offset="1" stop-color="#ff5dbf" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+    <path d="M30 0H0V30" fill="none" stroke="#183042" stroke-width="1" opacity=".30"/>
+  </pattern>
+  <filter id="glow" x="-18%" y="-18%" width="136%" height="136%">
+    <feGaussianBlur stdDeviation="1.35" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="nameGlow" x="-30%" y="-80%" width="160%" height="260%">
+    <feGaussianBlur stdDeviation="4.5" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <style>
+    .m{font-family:"DejaVu Sans Mono","Cascadia Mono","Consolas",monospace}
+    .micro{font-family:"DejaVu Sans Mono","Cascadia Mono","Consolas",monospace;font-size:11px;letter-spacing:2.4px}
+    .a{font-family:"DejaVu Sans Mono","Cascadia Mono","Consolas",monospace;font-size:8.8px;font-weight:600;letter-spacing:.72px;fill:url(#ink);white-space:pre}
+    .small{font-family:"DejaVu Sans Mono","Cascadia Mono","Consolas",monospace;font-size:10px;letter-spacing:1.3px;fill:#829cab}
+  </style>
 </defs>
-<rect width="1400" height="760" rx="28" fill="url(#bg)"/>
-<rect x="24" y="24" width="1352" height="712" rx="24" fill="url(#grid)"/>
-<rect x="24" y="24" width="1352" height="712" rx="24" fill="url(#aura)"/>
-<rect x="24" y="24" width="1352" height="712" rx="24" fill="none" stroke="#21394a"/>
-<text x="52" y="58" class="micro" fill="#69e8ff">YESURAJA // YESU166 // PERSONAL BUILD MAP</text>
-<text x="1348" y="58" class="micro" text-anchor="end" fill="#71f3c7">B.E. CSE (AI &amp; ML) // 2ND YEAR</text>
-<g>
-<text x="235" y="132" class="ascii" xml:space="preserve">-------==---------------------------------------------------------------------------------==========<animateTransform attributeName="transform" type="translate" values="0 0;5 0;0 0" dur="4.50s" begin="-.00s" repeatCount="indefinite"/><animate attributeName="opacity" values=".62;1;.78;.96;.62" dur="3.80s" repeatCount="indefinite"/></text>
-<text x="235" y="141.9" class="ascii" xml:space="preserve">-------------------------------------------------------------------------------------------=========<animateTransform attributeName="transform" type="translate" values="0 0;-5 0;0 0" dur="4.72s" begin="-.11s" repeatCount="indefinite"/><animate attributeName="opacity" values=".67;1;.78;.96;.67" dur="4.12s" begin="-.11s" repeatCount="indefinite"/></text>
-<text x="235" y="151.8" class="ascii" xml:space="preserve">-------------------------------------------:::::::::::::------------------------------------========<animateTransform attributeName="transform" type="translate" values="0 0;5 0;0 0" dur="4.94s" begin="-.22s" repeatCount="indefinite"/><animate attributeName="opacity" values=".72;1;.78;.96;.72" dur="4.44s" begin="-.22s" repeatCount="indefinite"/></text>
-<text x="235" y="161.7" class="ascii" xml:space="preserve">---------------------------------------:::::::::::::::::::-------------------------------------=====<animateTransform attributeName="transform" type="translate" values="0 0;-5 0;0 0" dur="5.16s" begin="-.33s" repeatCount="indefinite"/><animate attributeName="opacity" values=".77;1;.78;.96;.77" dur="4.76s" begin="-.33s" repeatCount="indefinite"/></text>
-<text x="235" y="171.6" class="ascii" xml:space="preserve">-----------------------------------:::::::::::-:::::::::::::::---------------------------------=====<animateTransform attributeName="transform" type="translate" values="0 0;5 0;0 0" dur="5.38s" begin="-.44s" repeatCount="indefinite"/><animate attributeName="opacity" values=".62;1;.78;.96;.62" dur="5.08s" begin="-.44s" repeatCount="indefinite"/></text>
-<text x="235" y="181.5" class="ascii" xml:space="preserve">----------------------------------::::::-=+#%%%%%*++++++-:::::::----------------------------------==<animateTransform attributeName="transform" type="translate" values="0 0;-5 0;0 0" dur="5.60s" begin="-.55s" repeatCount="indefinite"/><animate attributeName="opacity" values=".67;1;.78;.96;.67" dur="3.80s" begin="-.55s" repeatCount="indefinite"/></text>
-<text x="235" y="191.4" class="ascii" xml:space="preserve">---------------------------------:::::=%%%%%%@@@@@@@@%#%%#*+-=:::::::----------------------------===<animateTransform attributeName="transform" type="translate" values="0 0;5 0;0 0" dur="5.82s" begin="-.66s" repeatCount="indefinite"/><animate attributeName="opacity" values=".72;1;.78;.96;.72" dur="4.12s" begin="-.66s" repeatCount="indefinite"/></text>
-<text x="235" y="201.3" class="ascii" xml:space="preserve">--------------------------------::::-*%%@@@@@@@@@@@@@@@@@@@@%+**:::::--:--------------------------==<animateTransform attributeName="transform" type="translate" values="0 0;-5 0;0 0" dur="6.04s" begin="-.77s" repeatCount="indefinite"/><animate attributeName="opacity" values=".77;1;.78;.96;.77" dur="4.44s" begin="-.77s" repeatCount="indefinite"/></text>
-<text x="235" y="211.2" class="ascii" xml:space="preserve">--------------------------------::-*%%@@@@@@@@@@@@@@@@@@@@@@@@%%*-:-==+-----------------------------<animateTransform attributeName="transform" type="translate" values="0 0;5 0;0 0" dur="6.26s" begin="-.88s" repeatCount="indefinite"/><animate attributeName="opacity" values=".62;1;.78;.96;.62" dur="4.76s" begin="-.88s" repeatCount="indefinite"/></text>
-<text x="235" y="221.1" class="ascii" xml:space="preserve">-------------------------------::-*%@@@@@@@@@@@@@@@@@@@@@@@@@@@@%#===++-----------------------------<animateTransform attributeName="transform" type="translate" values="0 0;-5 0;0 0" dur="6.48s" begin="-.99s" repeatCount="indefinite"/><animate attributeName="opacity" values=".67;1;.78;.96;.67" dur="5.08s" begin="-.99s" repeatCount="indefinite"/></text>
-<text x="235" y="231" class="ascii" xml:space="preserve">-----------------------------:::=%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%#+------------------------------<animateTransform attributeName="transform" type="translate" values="0 0;5 0;0 0" dur="6.70s" begin="-1.10s" repeatCount="indefinite"/><animate attributeName="opacity" values=".72;1;.78;.96;.72" dur="3.80s" begin="-1.10s" repeatCount="indefinite"/></text>
-<text x="235" y="240.9" class="ascii" xml:space="preserve">--------------------------:::::=#%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%+-=::--------------------------<animateTransform attributeName="transform" type="translate" values="0 0;-5 0;0 0" dur="6.92s" begin="-1.21s" repeatCount="indefinite"/><animate attributeName="opacity" values=".77;1;.78;.96;.77" dur="4.12s" begin="-1.21s" repeatCount="indefinite"/></text>
-<text x="235" y="250.8" class="ascii" xml:space="preserve">---------------------------:::=#%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*+::--------------------------<animateTransform attributeName="transform" type="translate" values="0 0;5 0;0 0" dur="4.50s" begin="-1.32s" repeatCount="indefinite"/><animate attributeName="opacity" values=".62;1;.78;.96;.62" dur="4.44s" begin="-1.32s" repeatCount="indefinite"/></text>
-<text x="235" y="260.7" class="ascii" xml:space="preserve">--------------------------::::+%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%++-:--------------------------<animateTransform attributeName="transform" type="translate" values="0 0;-5 0;0 0" dur="4.72s" begin="-1.43s" repeatCount="indefinite"/><animate attributeName="opacity" values=".67;1;.78;.96;.67" dur="4.76s" begin="-1.43s" repeatCount="indefinite"/></text>
-<text x="235" y="270.6" class="ascii" xml:space="preserve">-------------------------::::-#%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%#+-::--------------------------<animateTransform attributeName="transform" type="translate" values="0 0;5 0;0 0" dur="4.94s" begin="-1.54s" repeatCount="indefinite"/><animate attributeName="opacity" values=".72;1;.78;.96;.72" dur="5.08s" begin="-1.54s" repeatCount="indefinite"/></text>
-<text x="235" y="280.5" class="ascii" xml:space="preserve">-----------------------::::::-*%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%#=-::::--------------------------<animateTransform attributeName="transform" type="translate" values="0 0;-5 0;0 0" dur="5.16s" begin="-1.65s" repeatCount="indefinite"/><animate attributeName="opacity" values=".77;1;.78;.96;.77" dur="5.40s" begin="-1.65s" repeatCount="indefinite"/></text>
-<text x="235" y="290.4" class="ascii" xml:space="preserve">----------------------::::::::-=#@@@@@@@@@@@@@@%###%%%%@%%%%@@@%+==-:::::---------------------------<animateTransform attributeName="transform" type="translate" values="0 0;5 0;0 0" dur="5.38s" begin="-1.76s" repeatCount="indefinite"/><animate attributeName="opacity" values=".62;1;.78;.96;.62" dur="5.72s" begin="-1.76s" repeatCount="indefinite"/></text>
-<text x="235" y="300.3" class="ascii" xml:space="preserve">------------------:::::::::::::::-#%@@@@%@@@%####***##%%###*#@@*:::::::::::-------------------------<animateTransform attributeName="transform" type="translate" values="0 0;-5 0;0 0" dur="5.60s" begin="-1.87s" repeatCount="indefinite"/><animate attributeName="opacity" values=".67;1;.78;.96;.67" dur="3.80s" begin="-1.87s" repeatCount="indefinite"/></text>
-<text x="235" y="310.2" class="ascii" xml:space="preserve">------------------::::::::::::::::-%%*%@@%#*++++++++**%%%%%##@@--:::::::::::------------------------<animateTransform attributeName="transform" type="translate" values="0 0;5 0;0 0" dur="5.82s" begin="-1.98s" repeatCount="indefinite"/><animate attributeName="opacity" values=".72;1;.78;.96;.72" dur="4.12s" begin="-1.98s" repeatCount="indefinite"/></text>
-<text x="235" y="320.1" class="ascii" xml:space="preserve">----------------::::::::::::::::-*+*#+##%%@@%#+==+*%%@%%%%###@%##+:::::::::::-----------------------<animateTransform attributeName="transform" type="translate" values="0 0;-5 0;0 0" dur="6.04s" begin="-2.09s" repeatCount="indefinite"/><animate attributeName="opacity" values=".77;1;.78;.96;.77" dur="4.44s" begin="-2.09s" repeatCount="indefinite"/></text>
-<text x="235" y="330.0" class="ascii" xml:space="preserve">---------------:::::::::::::::::-*====*#=*@++*++=*#%%=%@*%%#*%##%+:::::::::::::---------------------<animateTransform attributeName="transform" type="translate" values="0 0;5 0;0 0" dur="6.26s" begin="-2.20s" repeatCount="indefinite"/><animate attributeName="opacity" values=".62;1;.78;.96;.62" dur="4.76s" begin="-2.20s" repeatCount="indefinite"/></text>
-<text x="235" y="339.9" class="ascii" xml:space="preserve">----------------:::::::::::::::::==+====+++++++==*###*********%%#-::::::::::::----------------------<animateTransform attributeName="transform" type="translate" values="0 0;-5 0;0 0" dur="6.48s" begin="-2.31s" repeatCount="indefinite"/><animate attributeName="opacity" values=".67;1;.78;.96;.67" dur="5.08s" begin="-2.31s" repeatCount="indefinite"/></text>
-<text x="235" y="349.8" class="ascii" xml:space="preserve">--------------:::::::::::::::::::-+*=============+****+++++***%#+:::::::::::::::--------------------<animateTransform attributeName="transform" type="translate" values="0 0;5 0;0 0" dur="6.70s" begin="-2.42s" repeatCount="indefinite"/><animate attributeName="opacity" values=".72;1;.78;.96;.72" dur="3.80s" begin="-2.42s" repeatCount="indefinite"/></text>
-<text x="235" y="359.7" class="ascii" xml:space="preserve">--------------::::::::::::::::::::======-----===-+***+++++***##*-:::::::::::::::--------------------<animateTransform attributeName="transform" type="translate" values="0 0;-5 0;0 0" dur="4.50s" begin="-2.53s" repeatCount="indefinite"/><animate attributeName="opacity" values=".77;1;.78;.96;.77" dur="4.12s" begin="-2.53s" repeatCount="indefinite"/></text>
-<text x="235" y="369.6" class="ascii" xml:space="preserve">--------------:::::::::::::::::::::======----===-+**#*+++****#*-::::::::::::::::--------------------<animateTransform attributeName="transform" type="translate" values="0 0;5 0;0 0" dur="4.72s" begin="-2.64s" repeatCount="indefinite"/><animate attributeName="opacity" values=".62;1;.78;.96;.62" dur="4.44s" begin="-2.64s" repeatCount="indefinite"/></text>
-<text x="235" y="379.5" class="ascii" xml:space="preserve">----------------:::::::::::::::::::::-====---===-+**#*+*****=:::::::::::::::::::--------------------<animateTransform attributeName="transform" type="translate" values="0 0;-5 0;0 0" dur="4.94s" begin="-2.75s" repeatCount="indefinite"/><animate attributeName="opacity" values=".67;1;.78;.96;.67" dur="4.76s" begin="-2.75s" repeatCount="indefinite"/></text>
-<text x="235" y="389.4" class="ascii" xml:space="preserve">---------------:--:::::::::::::::::::-========+++#%#*****#**-:::::::::::::::::::--------------------<animateTransform attributeName="transform" type="translate" values="0 0;5 0;0 0" dur="5.16s" begin="-2.86s" repeatCount="indefinite"/><animate attributeName="opacity" values=".72;1;.78;.96;.72" dur="5.08s" begin="-2.86s" repeatCount="indefinite"/></text>
-<text x="235" y="399.3" class="ascii" xml:space="preserve">-------------:-:::::::::::::::::::::::-====*####**#%%%%%#*#=::::::::::::::::::----------------------<animateTransform attributeName="transform" type="translate" values="0 0;-5 0;0 0" dur="5.38s" begin="-2.97s" repeatCount="indefinite"/><animate attributeName="opacity" values=".77;1;.78;.96;.77" dur="5.40s" begin="-2.97s" repeatCount="indefinite"/></text>
-<text x="235" y="409.2" class="ascii" xml:space="preserve">---------------::::::::::::::::::::::::-===+*#***##%%%####*-::::::::::::::::::::--------------------<animateTransform attributeName="transform" type="translate" values="0 0;5 0;0 0" dur="5.60s" begin="-3.08s" repeatCount="indefinite"/><animate attributeName="opacity" values=".62;1;.78;.96;.62" dur="5.72s" begin="-3.08s" repeatCount="indefinite"/></text>
-<text x="235" y="419.1" class="ascii" xml:space="preserve">-----------------::::::::::::::::::::::=+==+++++++*########++-:::::::::::::::::---------------------<animateTransform attributeName="transform" type="translate" values="0 0;-5 0;0 0" dur="5.82s" begin="-3.19s" repeatCount="indefinite"/><animate attributeName="opacity" values=".67;1;.78;.96;.67" dur="3.80s" begin="-3.19s" repeatCount="indefinite"/></text>
-<text x="235" y="429.0" class="ascii" xml:space="preserve">----------------:::::::::::::::::::::-%:+++++++***#########--@=::::::::::::::::---------------------<animateTransform attributeName="transform" type="translate" values="0 0;5 0;0 0" dur="6.04s" begin="-3.30s" repeatCount="indefinite"/><animate attributeName="opacity" values=".72;1;.78;.96;.72" dur="4.12s" begin="-3.30s" repeatCount="indefinite"/></text>
-<text x="235" y="438.9" class="ascii" xml:space="preserve">------------------:::::::::::::::::-#%%..=++++*+**##%%####-:-@@#=::::::::::::::::-----------------------<animateTransform attributeName="transform" type="translate" values="0 0;-5 0;0 0" dur="6.26s" begin="-3.41s" repeatCount="indefinite"/><animate attributeName="opacity" values=".77;1;.78;.96;.77" dur="4.44s" begin="-3.41s" repeatCount="indefinite"/></text>
-<text x="235" y="448.8" class="ascii" xml:space="preserve">------------------::::::::::::-=*%%%%%@:..:++*%%%%@%%%##*:::=@@@@@%+--:::::::-----------------------<animateTransform attributeName="transform" type="translate" values="0 0;5 0;0 0" dur="6.48s" begin="-3.52s" repeatCount="indefinite"/><animate attributeName="opacity" values=".62;1;.78;.96;.62" dur="4.76s" begin="-3.52s" repeatCount="indefinite"/></text>
-<text x="235" y="458.7" class="ascii" xml:space="preserve">------------------::::::::--#%@@@%%%%%@=....-+++++*###*:::::*@@@@@@@@@@#--::------------------------<animateTransform attributeName="transform" type="translate" values="0 0;-5 0;0 0" dur="6.70s" begin="-3.63s" repeatCount="indefinite"/><animate attributeName="opacity" values=".67;1;.78;.96;.67" dur="5.08s" begin="-3.63s" repeatCount="indefinite"/></text>
-<text x="235" y="468.6" class="ascii" xml:space="preserve">-------------------::::-#%@@@@@@@@%%@@@#......:*****#:..:::-#@@@@@@@@@@@@@%#------------------------<animateTransform attributeName="transform" type="translate" values="0 0;5 0;0 0" dur="4.50s" begin="-3.74s" repeatCount="indefinite"/><animate attributeName="opacity" values=".72;1;.78;.96;.72" dur="5.40s" begin="-3.74s" repeatCount="indefinite"/></text>
-<text x="235" y="478.5" class="ascii" xml:space="preserve">-------------------+#%%%@@@@@@@@@@@@@@@%=.......=--:....:::-%@@@@@@@@@@@@@@@@@%#=-------------------<animateTransform attributeName="transform" type="translate" values="0 0;-5 0;0 0" dur="4.72s" begin="-3.85s" repeatCount="indefinite"/><animate attributeName="opacity" values=".77;1;.78;.96;.77" dur="3.80s" begin="-3.85s" repeatCount="indefinite"/></text>
-<text x="235" y="488.4" class="ascii" xml:space="preserve">--------------=*%%%%@@@@@@@@@@@@@@@@@@@@*....=%%%@@@@%-::::=@@@@@@@@@@@@@@@@@@@@@@%#=---------------<animateTransform attributeName="transform" type="translate" values="0 0;5 0;0 0" dur="4.94s" begin="-3.96s" repeatCount="indefinite"/><animate attributeName="opacity" values=".62;1;.78;.96;.62" dur="4.12s" begin="-3.96s" repeatCount="indefinite"/></text>
-<text x="235" y="498.3" class="ascii" xml:space="preserve">-------------*%@@@@@@@@@@@@@@@@@@@@@@@@@%-.:=:=@%%@@@*=-:::*@@@@@@@@@@@@@@@@@@@@@@@@@%=-------------<animateTransform attributeName="transform" type="translate" values="0 0;-5 0;0 0" dur="5.16s" begin="-4.07s" repeatCount="indefinite"/><animate attributeName="opacity" values=".67;1;.78;.96;.67" dur="4.44s" begin="-4.07s" repeatCount="indefinite"/></text>
-<text x="235" y="508.2" class="ascii" xml:space="preserve">-------------%@@@@@@@@@@@@@@@@@@@@@@@@@@%=:..:::@%@@+=:::::#@@@@@@@@@@@@@@@@@@@@@@@@@@#------------=<animateTransform attributeName="transform" type="translate" values="0 0;5 0;0 0" dur="5.38s" begin="-4.18s" repeatCount="indefinite"/><animate attributeName="opacity" values=".72;1;.78;.96;.72" dur="4.76s" begin="-4.18s" repeatCount="indefinite"/></text>
-<text x="235" y="518.1" class="ascii" xml:space="preserve">------------+%@@@@@@@@@@@@@@@@@@@@@@@@@@@=:...:.%@@%=:..:::%@@@@@@@@@@@@@@@@@@@@@@@@@@%=-----------=<animateTransform attributeName="transform" type="translate" values="0 0;-5 0;0 0" dur="5.60s" begin="-4.29s" repeatCount="indefinite"/><animate attributeName="opacity" values=".77;1;.78;.96;.77" dur="5.08s" begin="-4.29s" repeatCount="indefinite"/></text>
-<text x="235" y="528.0" class="ascii" xml:space="preserve">-----------=%%@@@@@@@@@@@@@@@@@@@@@@@@@@@+:..::*@%@@+:..::=@@@@@@@@@@@@@@@@@@@@@@@@@@@@%---------===<animateTransform attributeName="transform" type="translate" values="0 0;5 0;0 0" dur="5.82s" begin="-4.40s" repeatCount="indefinite"/><animate attributeName="opacity" values=".62;1;.78;.96;.62" dur="5.40s" begin="-4.40s" repeatCount="indefinite"/></text>
-<text x="235" y="537.9" class="ascii" xml:space="preserve">-----------*%%@@@@@@@@@@@@@@@@@@@@@@@@@@@*-..:+%@%@@@-..-:+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*--------===<animateTransform attributeName="transform" type="translate" values="0 0;-5 0;0 0" dur="6.04s" begin="-4.51s" repeatCount="indefinite"/><animate attributeName="opacity" values=".67;1;.78;.96;.67" dur="5.72s" begin="-4.51s" repeatCount="indefinite"/></text>
-<text x="235" y="547.8" class="ascii" xml:space="preserve">----------=%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@%-..:*%%%@@@*.:-:%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%=-----=-===<animateTransform attributeName="transform" type="translate" values="0 0;5 0;0 0" dur="6.26s" begin="-4.62s" repeatCount="indefinite"/><animate attributeName="opacity" values=".72;1;.78;.96;.72" dur="3.80s" begin="-4.62s" repeatCount="indefinite"/></text>
-<text x="235" y="557.7" class="ascii" xml:space="preserve">----------%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@=.::%%%@@@@#.:--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#---=======<animateTransform attributeName="transform" type="translate" values="0 0;-5 0;0 0" dur="6.48s" begin="-4.73s" repeatCount="indefinite"/><animate attributeName="opacity" values=".77;1;.78;.96;.77" dur="4.12s" begin="-4.73s" repeatCount="indefinite"/></text>
-<text x="235" y="567.6" class="ascii" xml:space="preserve">---------+%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@*:::%%@@@@@%.:-*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+--=======<animateTransform attributeName="transform" type="translate" values="0 0;5 0;0 0" dur="6.70s" begin="-4.84s" repeatCount="indefinite"/><animate attributeName="opacity" values=".62;1;.78;.96;.62" dur="4.44s" begin="-4.84s" repeatCount="indefinite"/></text>
-<text x="235" y="577.5" class="ascii" xml:space="preserve">=--------#%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%-:-@@@@@@@%.:-%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*--=======<animateTransform attributeName="transform" type="translate" values="0 0;5 0;0 0" dur="4.50s" begin="-4.95s" repeatCount="indefinite"/><animate attributeName="opacity" values=".67;1;.78;.96;.67" dur="4.76s" begin="-4.95s" repeatCount="indefinite"/></text>
-<text x="235" y="587.4" class="ascii" xml:space="preserve">=-------+%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@=:=@@@@@@@@..=@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%=========<animateTransform attributeName="transform" type="translate" values="0 0;-5 0;0 0" dur="4.72s" begin="-5.06s" repeatCount="indefinite"/><animate attributeName="opacity" values=".72;1;.78;.96;.72" dur="5.08s" begin="-5.06s" repeatCount="indefinite"/></text>
-<text x="235" y="597.3" class="ascii" xml:space="preserve">===-----#%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+-*@@@@@@@@:.#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+========<animateTransform attributeName="transform" type="translate" values="0 0;5 0;0 0" dur="4.94s" begin="-5.17s" repeatCount="indefinite"/><animate attributeName="opacity" values=".77;1;.78;.96;.77" dur="5.40s" begin="-5.17s" repeatCount="indefinite"/></text>
-<text x="235" y="607.2" class="ascii" xml:space="preserve">===----=%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%=#@@@@@@@@::@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#========<animateTransform attributeName="transform" type="translate" values="0 0;-5 0;0 0" dur="5.16s" begin="-5.28s" repeatCount="indefinite"/><animate attributeName="opacity" values=".62;1;.78;.96;.62" dur="3.80s" begin="-5.28s" repeatCount="indefinite"/></text>
-<text x="235" y="617.1" class="ascii" xml:space="preserve">====---*%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+%@@@@@@@@:+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%=======<animateTransform attributeName="transform" type="translate" values="0 0;5 0;0 0" dur="5.38s" begin="-5.39s" repeatCount="indefinite"/><animate attributeName="opacity" values=".67;1;.78;.96;.67" dur="4.12s" begin="-5.39s" repeatCount="indefinite"/></text>
-<text x="235" y="627.0" class="ascii" xml:space="preserve">=====--#%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%@@@@@@@@:#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+=======<animateTransform attributeName="transform" type="translate" values="0 0;-5 0;0 0" dur="5.60s" begin="-5.50s" repeatCount="indefinite"/><animate attributeName="opacity" values=".72;1;.78;.96;.72" dur="4.44s" begin="-5.50s" repeatCount="indefinite"/></text>
-<text x="235" y="636.9" class="ascii" xml:space="preserve">=======%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@=@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*=======<animateTransform attributeName="transform" type="translate" values="0 0;5 0;0 0" dur="5.82s" begin="-5.61s" repeatCount="indefinite"/><animate attributeName="opacity" values=".77;1;.78;.96;.77" dur="4.76s" begin="-5.61s" repeatCount="indefinite"/></text>
-<text x="235" y="646.8" class="ascii" xml:space="preserve">======+%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%=======<animateTransform attributeName="transform" type="translate" values="0 0;-5 0;0 0" dur="6.04s" begin="-5.72s" repeatCount="indefinite"/><animate attributeName="opacity" values=".62;1;.78;.96;.62" dur="5.08s" begin="-5.72s" repeatCount="indefinite"/></text>
-<text x="235" y="656.7" class="ascii" xml:space="preserve">======#%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+=======<animateTransform attributeName="transform" type="translate" values="0 0;5 0;0 0" dur="6.26s" begin="-5.83s" repeatCount="indefinite"/><animate attributeName="opacity" values=".67;1;.78;.96;.67" dur="5.40s" begin="-5.83s" repeatCount="indefinite"/></text>
-<text x="235" y="666.6" class="ascii" xml:space="preserve">======%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#=======<animateTransform attributeName="transform" type="translate" values="0 0;-5 0;0 0" dur="6.48s" begin="-5.94s" repeatCount="indefinite"/><animate attributeName="opacity" values=".72;1;.78;.96;.72" dur="5.72s" begin="-5.94s" repeatCount="indefinite"/></text>
+
+<rect width="1400" height="850" rx="28" fill="url(#bg)"/>
+<rect x="20" y="20" width="1360" height="810" rx="24" fill="url(#grid)"/>
+<rect x="20" y="20" width="1360" height="810" rx="24" fill="url(#aura)"/>
+<rect x="20" y="20" width="1360" height="810" rx="24" fill="none" stroke="#203847" stroke-width="1.5"/>
+
+<text x="54" y="56" class="micro" fill="#67e6ff">YESURAJA // YESU166 // PERSONAL BUILD MAP</text>
+<text x="1346" y="56" text-anchor="end" class="micro" fill="#70efc9">B.E. CSE (AI &amp; ML) // 2ND YEAR</text>
+
+<g filter="url(#nameGlow)">
+  <text x="700" y="112" text-anchor="middle" class="m" font-size="54" font-weight="800" letter-spacing="11" fill="url(#name)">YESURAJA</text>
+  <text x="700" y="112" text-anchor="middle" class="m" font-size="54" font-weight="800" letter-spacing="11" fill="none" stroke="#ffffff" stroke-width=".55" opacity=".42">YESURAJA</text>
 </g>
-<g filter="url(#nameGlow)"><text x="700" y="105" text-anchor="middle" class="mono" font-size="50" font-weight="800" letter-spacing="10" fill="url(#name)">YESURAJA</text><text x="700" y="105" text-anchor="middle" class="mono" font-size="50" font-weight="800" letter-spacing="10" fill="none" stroke="#fff" stroke-width=".7" opacity=".42">YESURAJA</text></g>
-<line x1="48" x2="1352" y1="122" y2="122" stroke="url(#ink)" opacity=".42" stroke-dasharray="5 22" style="animation:dash 6s linear infinite"/>
-<circle cx="78" cy="642" r="2.2" fill="#69e8ff"><animate attributeName="opacity" values=".15;1;.15" dur="1.8s" repeatCount="indefinite"/></circle>
-<circle cx="102" cy="642" r="1.6" fill="#ff65c7"><animate attributeName="opacity" values="1;.1;1" dur="2.4s" repeatCount="indefinite"/></circle>
-<circle cx="126" cy="642" r="1.9" fill="#70f4c7"><animate attributeName="opacity" values=".2;.95;.2" dur="2.1s" repeatCount="indefinite"/></circle>
-<rect x="45" y="683" width="1310" height="52" rx="11" fill="#04080f" fill-opacity=".84" stroke="#233e4d"><animate attributeName="stroke-opacity" values=".55;.95;.55" dur="3s" repeatCount="indefinite"/></rect>
-<text x="62" y="706" class="tiny">AI/ML · SOFTWARE · FULL-STACK · SYSTEMS · APPLIED EXPERIMENTATION</text>
-<text x="62" y="725" class="tiny" fill="#b4cbd6">BUILDING HONEYCHAIN + GWEN · LEARNING BY SHIPPING, TESTING AND ITERATING</text>
-<path d="M50 102V78H88 M1312 78H1350V102 M50 654V680H88 M1312 680H1350V654" fill="none" stroke="url(#ink)" stroke-width="2" opacity=".9"/>
+
+<line x1="50" y1="138" x2="1350" y2="138" stroke="url(#ink)" stroke-width="1.2" stroke-dasharray="4 19" opacity=".6"/>
+
+<!-- Original ASCII portrait, rendered as a static SVG text field -->
+<g filter="url(#glow)">
+<text x="700" y="190" text-anchor="middle" class="a" opacity="0.68">-------==---------------------------------------------------------------------------------==========</text>
+<text x="700" y="201.4" text-anchor="middle" class="a" opacity="0.74">-------------------------------------------------------------------------------------------=========</text>
+<text x="700" y="212.8" text-anchor="middle" class="a" opacity="0.8">-------------------------------------------:::::::::::::------------------------------------========</text>
+<text x="700" y="224.2" text-anchor="middle" class="a" opacity="0.8600000000000001">---------------------------------------:::::::::::::::::::-------------------------------------=====</text>
+<text x="700" y="235.6" text-anchor="middle" class="a" opacity="0.92">-----------------------------------:::::::::::-:::::::::::::::---------------------------------=====</text>
+<text x="700" y="247" text-anchor="middle" class="a" opacity="0.68">----------------------------------::::::-=+#%%%%%*++++++-:::::::----------------------------------==</text>
+<text x="700" y="258.4" text-anchor="middle" class="a" opacity="0.74">---------------------------------:::::=%%%%%%@@@@@@@@%#%%#*+-=:::::::----------------------------===</text>
+<text x="700" y="269.8" text-anchor="middle" class="a" opacity="0.8">--------------------------------::::-*%%@@@@@@@@@@@@@@@@@@@@%+**:::::--:--------------------------==</text>
+<text x="700" y="281.2" text-anchor="middle" class="a" opacity="0.8600000000000001">--------------------------------::-*%%@@@@@@@@@@@@@@@@@@@@@@@@%%*-:-==+-----------------------------</text>
+<text x="700" y="292.6" text-anchor="middle" class="a" opacity="0.92">-------------------------------::-*%@@@@@@@@@@@@@@@@@@@@@@@@@@@@%#===++-----------------------------</text>
+<text x="700" y="304" text-anchor="middle" class="a" opacity="0.68">-----------------------------:::=%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%#+------------------------------</text>
+<text x="700" y="315.4" text-anchor="middle" class="a" opacity="0.74">--------------------------:::::=#%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%+-=::--------------------------</text>
+<text x="700" y="326.8" text-anchor="middle" class="a" opacity="0.8">---------------------------:::=#%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*+::--------------------------</text>
+<text x="700" y="338.20000000000005" text-anchor="middle" class="a" opacity="0.8600000000000001">--------------------------::::+%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%++-:--------------------------</text>
+<text x="700" y="349.6" text-anchor="middle" class="a" opacity="0.92">-------------------------::::-#%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%#+-::--------------------------</text>
+<text x="700" y="361" text-anchor="middle" class="a" opacity="0.68">-----------------------::::::-*%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%#=-::::--------------------------</text>
+<text x="700" y="372.4" text-anchor="middle" class="a" opacity="0.74">----------------------::::::::-=#@@@@@@@@@@@@@@%###%%%%@%%%%@@@%+==-:::::---------------------------</text>
+<text x="700" y="383.8" text-anchor="middle" class="a" opacity="0.8">------------------:::::::::::::::-#%@@@@%@@@%####***##%%###*#@@*:::::::::::-------------------------</text>
+<text x="700" y="395.20000000000005" text-anchor="middle" class="a" opacity="0.8600000000000001">------------------::::::::::::::::-%%*%@@%#*++++++++**%%%%%##@@--:::::::::::------------------------</text>
+<text x="700" y="406.6" text-anchor="middle" class="a" opacity="0.92">----------------::::::::::::::::-*+*#+##%%@@%#+==+*%%@%%%%###@%##+:::::::::::-----------------------</text>
+<text x="700" y="418" text-anchor="middle" class="a" opacity="0.68">---------------:::::::::::::::::-*====*#=*@++*++=*#%%=%@*%%#*%##%+:::::::::::::---------------------</text>
+<text x="700" y="429.4" text-anchor="middle" class="a" opacity="0.74">----------------:::::::::::::::::==+====+++++++==*###*********%%#-::::::::::::----------------------</text>
+<text x="700" y="440.8" text-anchor="middle" class="a" opacity="0.8">--------------:::::::::::::::::::-+*=============+****+++++***%#+:::::::::::::::--------------------</text>
+<text x="700" y="452.2" text-anchor="middle" class="a" opacity="0.8600000000000001">--------------::::::::::::::::::::======-----===-+***+++++***##*-:::::::::::::::--------------------</text>
+<text x="700" y="463.6" text-anchor="middle" class="a" opacity="0.92">--------------:::::::::::::::::::::======----===-+**#*+++****#*-::::::::::::::::--------------------</text>
+<text x="700" y="475" text-anchor="middle" class="a" opacity="0.68">----------------:::::::::::::::::::::-====---===-+**#*+*****=:::::::::::::::::::--------------------</text>
+<text x="700" y="486.40000000000003" text-anchor="middle" class="a" opacity="0.74">---------------:--:::::::::::::::::::-========+++#%#*****#**-:::::::::::::::::::--------------------</text>
+<text x="700" y="497.8" text-anchor="middle" class="a" opacity="0.8">-------------:-:::::::::::::::::::::::-====*####**#%%%%%#*#=::::::::::::::::::----------------------</text>
+<text x="700" y="509.2" text-anchor="middle" class="a" opacity="0.8600000000000001">---------------::::::::::::::::::::::::-===+*#***##%%%####*-::::::::::::::::::::--------------------</text>
+<text x="700" y="520.6" text-anchor="middle" class="a" opacity="0.92">-----------------::::::::::::::::::::::=+==+++++++*########++-:::::::::::::::::---------------------</text>
+<text x="700" y="532" text-anchor="middle" class="a" opacity="0.68">----------------:::::::::::::::::::::-%:+++++++***#########--@=::::::::::::::::---------------------</text>
+<text x="700" y="543.4000000000001" text-anchor="middle" class="a" opacity="0.74">------------------:::::::::::::::::-#%%..=++++*+**##%%####-:-@@#=::::::::::::-----------------------</text>
+<text x="700" y="554.8" text-anchor="middle" class="a" opacity="0.8">------------------::::::::::::-=*%%%%%@:..:++*%%%%@%%%##*:::=@@@@@%+--:::::::-----------------------</text>
+<text x="700" y="566.2" text-anchor="middle" class="a" opacity="0.8600000000000001">------------------::::::::--#%@@@%%%%%@=....-+++++*###*:::::*@@@@@@@@@@#--::------------------------</text>
+<text x="700" y="577.6" text-anchor="middle" class="a" opacity="0.92">-------------------::::-#%@@@@@@@@%%@@@#......:*****#:..:::-#@@@@@@@@@@@@@%#------------------------</text>
+<text x="700" y="589" text-anchor="middle" class="a" opacity="0.68">-------------------+#%%%@@@@@@@@@@@@@@@%=.......=--:....:::-%@@@@@@@@@@@@@@@@@%#=-------------------</text>
+<text x="700" y="600.4000000000001" text-anchor="middle" class="a" opacity="0.74">--------------=*%%%%@@@@@@@@@@@@@@@@@@@@*....=%%%@@@@%-::::=@@@@@@@@@@@@@@@@@@@@@@%#=---------------</text>
+<text x="700" y="611.8" text-anchor="middle" class="a" opacity="0.8">-------------*%@@@@@@@@@@@@@@@@@@@@@@@@@%-.:=:=@%%@@@*=-:::*@@@@@@@@@@@@@@@@@@@@@@@@@%=-------------</text>
+<text x="700" y="623.2" text-anchor="middle" class="a" opacity="0.8600000000000001">-------------%@@@@@@@@@@@@@@@@@@@@@@@@@@%=:..:::@%@@+=:::::#@@@@@@@@@@@@@@@@@@@@@@@@@@#------------=</text>
+<text x="700" y="634.6" text-anchor="middle" class="a" opacity="0.92">------------+%@@@@@@@@@@@@@@@@@@@@@@@@@@@=:...:.%@@%=:..:::%@@@@@@@@@@@@@@@@@@@@@@@@@@%=-----------=</text>
+<text x="700" y="646" text-anchor="middle" class="a" opacity="0.68">-----------=%%@@@@@@@@@@@@@@@@@@@@@@@@@@@+:..::*@%@@+:..::=@@@@@@@@@@@@@@@@@@@@@@@@@@@@%---------===</text>
+<text x="700" y="657.4000000000001" text-anchor="middle" class="a" opacity="0.74">-----------*%%@@@@@@@@@@@@@@@@@@@@@@@@@@@*-..:+%@%@@@-..-:+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*--------===</text>
+<text x="700" y="668.8" text-anchor="middle" class="a" opacity="0.8">----------=%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@%-..:*%%%@@@*.:-:%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%=-----=-===</text>
+<text x="700" y="680.2" text-anchor="middle" class="a" opacity="0.8600000000000001">----------%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@=.::%%%@@@@#.:--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#---=======</text>
+<text x="700" y="691.6" text-anchor="middle" class="a" opacity="0.92">---------+%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@*:::%%@@@@@%.:-*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+--=======</text>
+<text x="700" y="703" text-anchor="middle" class="a" opacity="0.68">=--------#%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%-:-@@@@@@@%.:-%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*--=======</text>
+<text x="700" y="714.4" text-anchor="middle" class="a" opacity="0.74">=-------+%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@=:=@@@@@@@@..=@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%=========</text>
+<text x="700" y="725.8000000000001" text-anchor="middle" class="a" opacity="0.8">===-----#%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+-*@@@@@@@@:.#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+========</text>
+<text x="700" y="737.2" text-anchor="middle" class="a" opacity="0.8600000000000001">===----=%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%=#@@@@@@@@::@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#========</text>
+<text x="700" y="748.6" text-anchor="middle" class="a" opacity="0.92">====---*%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+%@@@@@@@@:+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%========</text>
+<text x="700" y="760" text-anchor="middle" class="a" opacity="0.68">=====--#%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%@@@@@@@@:#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+=======</text>
+<text x="700" y="771.4" text-anchor="middle" class="a" opacity="0.74">=======%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@=@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*=======</text>
+<text x="700" y="782.8000000000001" text-anchor="middle" class="a" opacity="0.8">======+%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%=======</text>
+<text x="700" y="794.2" text-anchor="middle" class="a" opacity="0.8600000000000001">======#%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+======</text>
+<text x="700" y="805.6" text-anchor="middle" class="a" opacity="0.92">======%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#======</text>
+</g>
+
+<rect x="46" y="760" width="1308" height="50" rx="12" fill="#03070e" fill-opacity=".82" stroke="#233d4c"/>
+<text x="64" y="783" class="small">AI/ML · SOFTWARE ENGINEERING · FULL-STACK · INTELLIGENT SYSTEMS · EXPERIMENTATION</text>
+<text x="64" y="801" class="small" fill="#b4c9d4">BUILDING HONEYCHAIN + GWEN · LEARNING BY BUILDING, TESTING AND ITERATING</text>
+
+<path d="M48 102V78H84 M1316 78H1352V102 M48 730V754H84 M1316 754H1352V730" fill="none" stroke="url(#ink)" stroke-width="2"/>
 </svg>
