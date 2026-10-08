@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" role="img" aria-labelledby="t d">
+<title id="t">Yesuraja skill map</title><desc id="d">AI and ML at the center, connected to software, backend, frontend, systems and experimental technologies.</desc>
+<defs>
+<linearGradient id="core" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#55ddff"/><stop offset="1" stop-color="#9f66ff"/></linearGradient>
+<linearGradient id="sys" x1="0" x2="1"><stop stop-color="#35dcff"/><stop offset="1" stop-color="#58f0c2"/></linearGradient>
+<filter id="gl"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<style>.m{font-family:"DejaVu Sans Mono","Cascadia Mono","Consolas",monospace}.k{font-size:11px;letter-spacing:2px;fill:#83a0af}.h{font-size:18px;font-weight:800;letter-spacing:1px;fill:#edf8ff}.t{font-size:12px;fill:#a9c0cb}.n{fill:#091019;stroke:#284556}</style>
+</defs>
+<rect width="1200" height="420" rx="24" fill="#050910"/><rect x="20" y="20" width="1160" height="380" rx="20" fill="none" stroke="#1f3543"/>
+<g fill="none" stroke-linecap="round">
+<path d="M600 214 C420 120 300 92 155 78" stroke="#5fdfff" opacity=".16" stroke-width="3"/><path d="M600 214 C420 120 300 92 155 78" stroke="url(#sys)" stroke-width="1.2" stroke-dasharray="5 12"><animate attributeName="stroke-dashoffset" values="0;-160;0" dur="4s" repeatCount="indefinite"/></path>
+<path d="M600 214 C430 155 300 154 155 152" stroke="#6e8dff" opacity=".14" stroke-width="3"/><path d="M600 214 C430 155 300 154 155 152" stroke="#6e8dff" stroke-width="1.2" stroke-dasharray="5 12"><animate attributeName="stroke-dashoffset" values="0;-160;0" dur="5s" repeatCount="indefinite"/></path>
+<path d="M600 214 C430 215 300 215 155 226" stroke="#59e8ff" opacity=".14" stroke-width="3"/><path d="M600 214 C430 215 300 215 155 226" stroke="#59e8ff" stroke-width="1.2" stroke-dasharray="5 12"><animate attributeName="stroke-dashoffset" values="0;-160;0" dur="4.4s" repeatCount="indefinite"/></path>
+<path d="M600 214 C430 280 300 300 155 306" stroke="#73efc6" opacity=".14" stroke-width="3"/><path d="M600 214 C430 280 300 300 155 306" stroke="url(#sys)" stroke-width="1.2" stroke-dasharray="5 12"><animate attributeName="stroke-dashoffset" values="0;-160;0" dur="4.7s" repeatCount="indefinite"/></path>
+<path d="M600 214 C430 334 300 346 155 360" stroke="#ffae60" opacity=".14" stroke-width="3"/><path d="M600 214 C430 334 300 346 155 360" stroke="#ffae60" stroke-width="1.2" stroke-dasharray="5 12"><animate attributeName="stroke-dashoffset" values="0;-160;0" dur="5.2s" repeatCount="indefinite"/></path>
+</g>
+<g class="m">
+<rect x="455" y="164" width="290" height="100" rx="18" fill="#08111b" stroke="url(#core)" stroke-width="2"/><circle cx="600" cy="214" r="54" fill="#62ddff" opacity=".08" filter="url(#gl)"/>
+<text x="600" y="199" text-anchor="middle" class="k">CORE DIRECTION</text><text x="600" y="226" text-anchor="middle" class="h">AI / ML ENGINEERING</text><text x="600" y="248" text-anchor="middle" class="t">Python · applied ML · intelligent systems</text>
+<rect x="55" y="49" width="210" height="58" rx="12" class="n"/><text x="76" y="74" class="k">01 / SOFTWARE</text><text x="76" y="94" class="t">Python · TypeScript · C++ · APIs</text>
+<rect x="55" y="123" width="210" height="58" rx="12" class="n"/><text x="76" y="148" class="k">02 / BACKEND</text><text x="76" y="168" class="t">FastAPI · PostgreSQL · RBAC</text>
+<rect x="55" y="197" width="210" height="58" rx="12" class="n"/><text x="76" y="222" class="k">03 / FRONTEND</text><text x="76" y="242" class="t">React · Vite · Flutter · CSS</text>
+<rect x="55" y="277" width="210" height="58" rx="12" class="n"/><text x="76" y="302" class="k">04 / SYSTEMS</text><text x="76" y="322" class="t">Arduino · Raspberry Pi · IoT</text>
+<rect x="55" y="351" width="210" height="44" rx="12" class="n"/><text x="76" y="378" class="k">05 / EXPERIMENTAL</text>
+<text x="300" y="378" class="t">Fabric · Three.js · WebGL · Docker · Linux</text>
+<text x="790" y="82" class="k">BUILD SIGNALS</text><text x="790" y="112" class="t">SYSTEM THINKING</text><text x="790" y="140" class="t">PROTOTYPE → TEST → ITERATE</text><text x="790" y="168" class="t">FULL-STACK + AI/ML</text><text x="790" y="196" class="t">DEVICES + SOFTWARE</text><text x="790" y="224" class="t">PRACTICAL EXPERIMENTATION</text><text x="790" y="252" class="t">CURRENTLY EXPLORING AGENTS</text>
+<rect x="785" y="292" width="330" height="54" rx="14" fill="#071019" stroke="#2b4656"/><text x="810" y="316" class="k">STATUS</text><text x="810" y="337" class="t">Student builder · 2nd year · shipping work</text>
+</g></svg>
