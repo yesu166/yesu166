@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/yesu166/yesu166/main/assets/profile-hero.svg?v=3" width="100%" alt="Yesuraja — animated-style ASCII identity hero" />
+<img src="https://raw.githubusercontent.com/yesu166/yesu166/main/assets/profile-hero.svg?v=4" width="100%" alt="Yesuraja — SVG ASCII identity hero" />
 
 ### **YESURAJA** · `yesu166`
 
