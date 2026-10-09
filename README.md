@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/profile-hero.gif" width="100%" alt="Yesuraja animated ASCII developer profile" />
+<img src="./assets/profile-hero.svg" width="100%" alt="Yesuraja static ASCII developer profile" />
 
 ### **YESURAJA** · `yesu166`
 
