@@ -1,43 +1,129 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="360" viewBox="0 0 1000 360" role="img" aria-labelledby="title desc">
-<title id="title">YESURAJA — yesu166</title>
-<desc id="desc">A static terminal-style ASCII profile banner for a second-year CSE student building AI, full-stack software, agentic AI and experimental systems.</desc>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 850" role="img" aria-labelledby="title desc">
+<title id="title">YESURAJA — yesu166 — B.E. CSE AI &amp; ML</title>
+<desc id="desc">A static, GitHub-safe full-width ASCII identity hero for Yesuraja, a second-year Computer Science and Engineering student focused on AI and Machine Learning.</desc>
 <defs>
-  <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070d15"/><stop offset="1" stop-color="#121026"/></linearGradient>
-  <linearGradient id="gradient" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#70f0ce"/><stop offset=".55" stop-color="#7bbcff"/><stop offset="1" stop-color="#d0a6ff"/></linearGradient>
-  <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse"><path d="M22 0H0V22" fill="none" stroke="#243747" stroke-width=".7" opacity=".5"/></pattern>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#050912"/>
+    <stop offset=".52" stop-color="#0b0717"/>
+    <stop offset="1" stop-color="#050b12"/>
+  </linearGradient>
+  <linearGradient id="ink" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#42e8ff"/>
+    <stop offset=".24" stop-color="#57a7ff"/>
+    <stop offset=".48" stop-color="#a56dff"/>
+    <stop offset=".70" stop-color="#ff65c7"/>
+    <stop offset=".86" stop-color="#ffa15c"/>
+    <stop offset="1" stop-color="#67f0ca"/>
+  </linearGradient>
+  <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#42e8ff"/>
+    <stop offset=".36" stop-color="#ffffff"/>
+    <stop offset=".62" stop-color="#c4a6ff"/>
+    <stop offset=".84" stop-color="#ff69c9"/>
+    <stop offset="1" stop-color="#67f0ca"/>
+  </linearGradient>
+  <radialGradient id="aura" cx="50%" cy="46%" r="60%">
+    <stop offset="0" stop-color="#4ddfff" stop-opacity=".15"/>
+    <stop offset=".42" stop-color="#9a63ff" stop-opacity=".08"/>
+    <stop offset="1" stop-color="#ff5dbf" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+    <path d="M30 0H0V30" fill="none" stroke="#183042" stroke-width="1" opacity=".30"/>
+  </pattern>
+  <filter id="glow" x="-18%" y="-18%" width="136%" height="136%">
+    <feGaussianBlur stdDeviation="1.35" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="nameGlow" x="-30%" y="-80%" width="160%" height="260%">
+    <feGaussianBlur stdDeviation="4.5" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <style>
+    .m{font-family:"DejaVu Sans Mono","Cascadia Mono","Consolas",monospace}
+    .micro{font-family:"DejaVu Sans Mono","Cascadia Mono","Consolas",monospace;font-size:11px;letter-spacing:2.4px}
+    .a{font-family:"DejaVu Sans Mono","Cascadia Mono","Consolas",monospace;font-size:8.8px;font-weight:600;letter-spacing:.72px;fill:url(#ink);white-space:pre}
+    .small{font-family:"DejaVu Sans Mono","Cascadia Mono","Consolas",monospace;font-size:10px;letter-spacing:1.3px;fill:#829cab}
+  </style>
 </defs>
-<rect width="1000" height="360" rx="20" fill="url(#background)"/>
-<rect x="1" y="1" width="998" height="358" rx="19" fill="url(#grid)" stroke="#334452"/>
-<path d="M1 54H999" stroke="#334452"/>
-<circle cx="25" cy="27" r="5" fill="#fb7185"/><circle cx="43" cy="27" r="5" fill="#f5c56c"/><circle cx="61" cy="27" r="5" fill="#70f0ce"/>
-<text x="80" y="31" fill="#91a6b5" font-family="monospace" font-size="12">yesu166@devbox: ~/profile</text>
-<text x="970" y="31" text-anchor="end" fill="#6e8498" font-family="monospace" font-size="11">ASCII MODE / STATIC</text>
-<path d="M470 75V323" stroke="#334452"/>
-<text x="260" y="82" text-anchor="middle" fill="#70f0ce" font-family="monospace" font-size="11" letter-spacing="2">$ whoami</text>
-<g fill="url(#gradient)" font-family="monospace" font-size="17" font-weight="bold" text-anchor="middle" xml:space="preserve">
-  <text x="260" y="118">      .-''''-.      </text>
-  <text x="260" y="139">    .'  .--.  '.    </text>
-  <text x="260" y="160">   /   /    \   \   </text>
-  <text x="260" y="181">  |   | o  o |   |  </text>
-  <text x="260" y="202">  |   |  __  |   |  </text>
-  <text x="260" y="223">   \   \____/   /   </text>
-  <text x="260" y="244">    '.  ____  .'    </text>
-  <text x="260" y="265">      '-.__.-'      </text>
-  <text x="260" y="286">        /||\        </text>
-  <text x="260" y="307">       /_||_\       </text>
+
+<rect width="1400" height="850" rx="28" fill="url(#bg)"/>
+<rect x="20" y="20" width="1360" height="810" rx="24" fill="url(#grid)"/>
+<rect x="20" y="20" width="1360" height="810" rx="24" fill="url(#aura)"/>
+<rect x="20" y="20" width="1360" height="810" rx="24" fill="none" stroke="#203847" stroke-width="1.5"/>
+
+<text x="54" y="56" class="micro" fill="#67e6ff">YESURAJA // YESU166 // PERSONAL BUILD MAP</text>
+<text x="1346" y="56" text-anchor="end" class="micro" fill="#70efc9">B.E. CSE (AI &amp; ML) // 2ND YEAR</text>
+
+<g filter="url(#nameGlow)">
+  <text x="700" y="112" text-anchor="middle" class="m" font-size="54" font-weight="800" letter-spacing="11" fill="url(#name)">YESURAJA</text>
+  <text x="700" y="112" text-anchor="middle" class="m" font-size="54" font-weight="800" letter-spacing="11" fill="none" stroke="#ffffff" stroke-width=".55" opacity=".42">YESURAJA</text>
 </g>
-<text x="510" y="93" fill="#70f0ce" font-family="monospace" font-size="11" letter-spacing="2">BUILDING THINGS THAT WORK</text>
-<text x="510" y="136" fill="#f2f6fc" font-family="monospace" font-size="36" font-weight="bold">YESURAJA</text>
-<text x="510" y="163" fill="#a8b9ca" font-family="monospace" font-size="14">B.E. CSE · AI &amp; ML · 2ND YEAR</text>
-<text x="510" y="199" fill="#7bbcff" font-family="monospace" font-size="12">$ build --systems</text>
-<g font-family="monospace" font-size="12" fill="#d1dfeb">
-  <text x="510" y="222"><tspan fill="#70f0ce">[ok]</tspan><tspan dx="10">Applied AI &amp; agentic systems</tspan></text>
-  <text x="510" y="244"><tspan fill="#70f0ce">[ok]</tspan><tspan dx="10">React · TypeScript · Python APIs</tspan></text>
-  <text x="510" y="266"><tspan fill="#70f0ce">[ok]</tspan><tspan dx="10">ML experiments · backend engineering</tspan></text>
-  <text x="510" y="288"><tspan fill="#70f0ce">[ok]</tspan><tspan dx="10">3D web · C++ / WebAssembly</tspan></text>
+
+<line x1="50" y1="138" x2="1350" y2="138" stroke="url(#ink)" stroke-width="1.2" stroke-dasharray="4 19" opacity=".6"/>
+
+<!-- Original ASCII portrait, rendered as a static SVG text field -->
+<g filter="url(#glow)">
+<text x="700" y="190" text-anchor="middle" class="a" opacity="0.68">-------==---------------------------------------------------------------------------------==========</text>
+<text x="700" y="201.4" text-anchor="middle" class="a" opacity="0.74">-------------------------------------------------------------------------------------------=========</text>
+<text x="700" y="212.8" text-anchor="middle" class="a" opacity="0.8">-------------------------------------------:::::::::::::------------------------------------========</text>
+<text x="700" y="224.2" text-anchor="middle" class="a" opacity="0.8600000000000001">---------------------------------------:::::::::::::::::::-------------------------------------=====</text>
+<text x="700" y="235.6" text-anchor="middle" class="a" opacity="0.92">-----------------------------------:::::::::::-:::::::::::::::---------------------------------=====</text>
+<text x="700" y="247" text-anchor="middle" class="a" opacity="0.68">----------------------------------::::::-=+#%%%%%*++++++-:::::::----------------------------------==</text>
+<text x="700" y="258.4" text-anchor="middle" class="a" opacity="0.74">---------------------------------:::::=%%%%%%@@@@@@@@%#%%#*+-=:::::::----------------------------===</text>
+<text x="700" y="269.8" text-anchor="middle" class="a" opacity="0.8">--------------------------------::::-*%%@@@@@@@@@@@@@@@@@@@@%+**:::::--:--------------------------==</text>
+<text x="700" y="281.2" text-anchor="middle" class="a" opacity="0.8600000000000001">--------------------------------::-*%%@@@@@@@@@@@@@@@@@@@@@@@@%%*-:-==+-----------------------------</text>
+<text x="700" y="292.6" text-anchor="middle" class="a" opacity="0.92">-------------------------------::-*%@@@@@@@@@@@@@@@@@@@@@@@@@@@@%#===++-----------------------------</text>
+<text x="700" y="304" text-anchor="middle" class="a" opacity="0.68">-----------------------------:::=%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%#+------------------------------</text>
+<text x="700" y="315.4" text-anchor="middle" class="a" opacity="0.74">--------------------------:::::=#%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%+-=::--------------------------</text>
+<text x="700" y="326.8" text-anchor="middle" class="a" opacity="0.8">---------------------------:::=#%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*+::--------------------------</text>
+<text x="700" y="338.20000000000005" text-anchor="middle" class="a" opacity="0.8600000000000001">--------------------------::::+%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%++-:--------------------------</text>
+<text x="700" y="349.6" text-anchor="middle" class="a" opacity="0.92">-------------------------::::-#%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%#+-::--------------------------</text>
+<text x="700" y="361" text-anchor="middle" class="a" opacity="0.68">-----------------------::::::-*%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%#=-::::--------------------------</text>
+<text x="700" y="372.4" text-anchor="middle" class="a" opacity="0.74">----------------------::::::::-=#@@@@@@@@@@@@@@%###%%%%@%%%%@@@%+==-:::::---------------------------</text>
+<text x="700" y="383.8" text-anchor="middle" class="a" opacity="0.8">------------------:::::::::::::::-#%@@@@%@@@%####***##%%###*#@@*:::::::::::-------------------------</text>
+<text x="700" y="395.20000000000005" text-anchor="middle" class="a" opacity="0.8600000000000001">------------------::::::::::::::::-%%*%@@%#*++++++++**%%%%%##@@--:::::::::::------------------------</text>
+<text x="700" y="406.6" text-anchor="middle" class="a" opacity="0.92">----------------::::::::::::::::-*+*#+##%%@@%#+==+*%%@%%%%###@%##+:::::::::::-----------------------</text>
+<text x="700" y="418" text-anchor="middle" class="a" opacity="0.68">---------------:::::::::::::::::-*====*#=*@++*++=*#%%=%@*%%#*%##%+:::::::::::::---------------------</text>
+<text x="700" y="429.4" text-anchor="middle" class="a" opacity="0.74">----------------:::::::::::::::::==+====+++++++==*###*********%%#-::::::::::::----------------------</text>
+<text x="700" y="440.8" text-anchor="middle" class="a" opacity="0.8">--------------:::::::::::::::::::-+*=============+****+++++***%#+:::::::::::::::--------------------</text>
+<text x="700" y="452.2" text-anchor="middle" class="a" opacity="0.8600000000000001">--------------::::::::::::::::::::======-----===-+***+++++***##*-:::::::::::::::--------------------</text>
+<text x="700" y="463.6" text-anchor="middle" class="a" opacity="0.92">--------------:::::::::::::::::::::======----===-+**#*+++****#*-::::::::::::::::--------------------</text>
+<text x="700" y="475" text-anchor="middle" class="a" opacity="0.68">----------------:::::::::::::::::::::-====---===-+**#*+*****=:::::::::::::::::::--------------------</text>
+<text x="700" y="486.40000000000003" text-anchor="middle" class="a" opacity="0.74">---------------:--:::::::::::::::::::-========+++#%#*****#**-:::::::::::::::::::--------------------</text>
+<text x="700" y="497.8" text-anchor="middle" class="a" opacity="0.8">-------------:-:::::::::::::::::::::::-====*####**#%%%%%#*#=::::::::::::::::::----------------------</text>
+<text x="700" y="509.2" text-anchor="middle" class="a" opacity="0.8600000000000001">---------------::::::::::::::::::::::::-===+*#***##%%%####*-::::::::::::::::::::--------------------</text>
+<text x="700" y="520.6" text-anchor="middle" class="a" opacity="0.92">-----------------::::::::::::::::::::::=+==+++++++*########++-:::::::::::::::::---------------------</text>
+<text x="700" y="532" text-anchor="middle" class="a" opacity="0.68">----------------:::::::::::::::::::::-%:+++++++***#########--@=::::::::::::::::---------------------</text>
+<text x="700" y="543.4000000000001" text-anchor="middle" class="a" opacity="0.74">------------------:::::::::::::::::-#%%..=++++*+**##%%####-:-@@#=::::::::::::-----------------------</text>
+<text x="700" y="554.8" text-anchor="middle" class="a" opacity="0.8">------------------::::::::::::-=*%%%%%@:..:++*%%%%@%%%##*:::=@@@@@%+--:::::::-----------------------</text>
+<text x="700" y="566.2" text-anchor="middle" class="a" opacity="0.8600000000000001">------------------::::::::--#%@@@%%%%%@=....-+++++*###*:::::*@@@@@@@@@@#--::------------------------</text>
+<text x="700" y="577.6" text-anchor="middle" class="a" opacity="0.92">-------------------::::-#%@@@@@@@@%%@@@#......:*****#:..:::-#@@@@@@@@@@@@@%#------------------------</text>
+<text x="700" y="589" text-anchor="middle" class="a" opacity="0.68">-------------------+#%%%@@@@@@@@@@@@@@@%=.......=--:....:::-%@@@@@@@@@@@@@@@@@%#=-------------------</text>
+<text x="700" y="600.4000000000001" text-anchor="middle" class="a" opacity="0.74">--------------=*%%%%@@@@@@@@@@@@@@@@@@@@*....=%%%@@@@%-::::=@@@@@@@@@@@@@@@@@@@@@@%#=---------------</text>
+<text x="700" y="611.8" text-anchor="middle" class="a" opacity="0.8">-------------*%@@@@@@@@@@@@@@@@@@@@@@@@@%-.:=:=@%%@@@*=-:::*@@@@@@@@@@@@@@@@@@@@@@@@@%=-------------</text>
+<text x="700" y="623.2" text-anchor="middle" class="a" opacity="0.8600000000000001">-------------%@@@@@@@@@@@@@@@@@@@@@@@@@@%=:..:::@%@@+=:::::#@@@@@@@@@@@@@@@@@@@@@@@@@@#------------=</text>
+<text x="700" y="634.6" text-anchor="middle" class="a" opacity="0.92">------------+%@@@@@@@@@@@@@@@@@@@@@@@@@@@=:...:.%@@%=:..:::%@@@@@@@@@@@@@@@@@@@@@@@@@@%=-----------=</text>
+<text x="700" y="646" text-anchor="middle" class="a" opacity="0.68">-----------=%%@@@@@@@@@@@@@@@@@@@@@@@@@@@+:..::*@%@@+:..::=@@@@@@@@@@@@@@@@@@@@@@@@@@@@%---------===</text>
+<text x="700" y="657.4000000000001" text-anchor="middle" class="a" opacity="0.74">-----------*%%@@@@@@@@@@@@@@@@@@@@@@@@@@@*-..:+%@%@@@-..-:+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*--------===</text>
+<text x="700" y="668.8" text-anchor="middle" class="a" opacity="0.8">----------=%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@%-..:*%%%@@@*.:-:%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%=-----=-===</text>
+<text x="700" y="680.2" text-anchor="middle" class="a" opacity="0.8600000000000001">----------%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@=.::%%%@@@@#.:--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#---=======</text>
+<text x="700" y="691.6" text-anchor="middle" class="a" opacity="0.92">---------+%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@*:::%%@@@@@%.:-*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+--=======</text>
+<text x="700" y="703" text-anchor="middle" class="a" opacity="0.68">=--------#%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%-:-@@@@@@@%.:-%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*--=======</text>
+<text x="700" y="714.4" text-anchor="middle" class="a" opacity="0.74">=-------+%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@=:=@@@@@@@@..=@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%=========</text>
+<text x="700" y="725.8000000000001" text-anchor="middle" class="a" opacity="0.8">===-----#%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+-*@@@@@@@@:.#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+========</text>
+<text x="700" y="737.2" text-anchor="middle" class="a" opacity="0.8600000000000001">===----=%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%=#@@@@@@@@::@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#========</text>
+<text x="700" y="748.6" text-anchor="middle" class="a" opacity="0.92">====---*%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+%@@@@@@@@:+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%========</text>
+<text x="700" y="760" text-anchor="middle" class="a" opacity="0.68">=====--#%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%@@@@@@@@:#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+=======</text>
+<text x="700" y="771.4" text-anchor="middle" class="a" opacity="0.74">=======%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@=@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*=======</text>
+<text x="700" y="782.8000000000001" text-anchor="middle" class="a" opacity="0.8">======+%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%=======</text>
+<text x="700" y="794.2" text-anchor="middle" class="a" opacity="0.8600000000000001">======#%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+======</text>
+<text x="700" y="805.6" text-anchor="middle" class="a" opacity="0.92">======%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#======</text>
 </g>
-<rect x="510" y="304" width="440" height="30" rx="7" fill="#101d29" stroke="#314558"/>
-<text x="528" y="323" fill="#9cb2c5" font-family="monospace" font-size="10">PROTOTYPE</text><text x="616" y="323" fill="#70f0ce" font-family="monospace" font-size="12">→</text>
-<text x="637" y="323" fill="#9cb2c5" font-family="monospace" font-size="10">TEST</text><text x="687" y="323" fill="#70f0ce" font-family="monospace" font-size="12">→</text>
-<text x="710" y="323" fill="#9cb2c5" font-family="monospace" font-size="10">ITERATE</text>
+
+<rect x="46" y="760" width="1308" height="50" rx="12" fill="#03070e" fill-opacity=".82" stroke="#233d4c"/>
+<text x="64" y="783" class="small">AI/ML · SOFTWARE ENGINEERING · FULL-STACK · INTELLIGENT SYSTEMS · EXPERIMENTATION</text>
+<text x="64" y="801" class="small" fill="#b4c9d4">BUILDING HONEYCHAIN + GWEN · LEARNING BY BUILDING, TESTING AND ITERATING</text>
+
+<path d="M48 102V78H84 M1316 78H1352V102 M48 730V754H84 M1316 754H1352V730" fill="none" stroke="url(#ink)" stroke-width="2"/>
 </svg>
