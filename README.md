@@ -2,7 +2,7 @@
 
 <img src="./assets/profile-hero.svg?v=3" width="100%" alt="Yesuraja static ASCII developer profile" />
 
-### **YESURAJA** · `yesu166`
+### **YESURAJA M** · `yesu166`
 
 **B.E. Computer Science & Engineering — AI & ML · 2nd Year**
 
