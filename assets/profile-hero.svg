@@ -122,8 +122,8 @@
 </g>
 
 <rect x="46" y="760" width="1308" height="50" rx="12" fill="#03070e" fill-opacity=".82" stroke="#233d4c"/>
-<text x="64" y="783" class="small">AI/ML · SOFTWARE ENGINEERING · FULL-STACK · INTELLIGENT SYSTEMS · EXPERIMENTATION</text>
-<text x="64" y="801" class="small" fill="#b4c9d4">BUILDING HONEYCHAIN + GWEN · LEARNING BY BUILDING, TESTING AND ITERATING</text>
+<text x="64" y="783" class="small">AI/ML · SOFTWARE ENGINEERING · FULL-STACK · AGENTIC AI SYSTEMS · EXPERIMENTATION</text>
+<text x="64" y="801" class="small" fill="#b4c9d4">EVERYTHING IS POSSIBLE</text>
 
 <path d="M48 102V78H84 M1316 78H1352V102 M48 730V754H84 M1316 754H1352V730" fill="none" stroke="url(#ink)" stroke-width="2"/>
 </svg>
