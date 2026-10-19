@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/profile-hero.svg" width="100%" alt="Yesuraja — Applied AI and Full-Stack Developer" />
+<img src="./assets/profile-hero.svg?v=4" width="100%" alt="Yesuraja — Applied AI and Full-Stack Developer with original ASCII portrait" />
 
 <p>
   <strong>Applied AI & Full-Stack Developer</strong><br>
