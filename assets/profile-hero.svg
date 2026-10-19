@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 350" role="img" aria-labelledby="title desc">
-  <title id="title">Yesuraja — Applied AI and Full-Stack Developer</title>
-  <desc id="desc">A terminal-inspired profile banner with Yesuraja's identity and original ASCII portrait.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+  <title id="title">Yesuraja — Applied AI &amp; Full-Stack Developer</title>
+  <desc id="desc">A terminal-inspired profile banner featuring Yesuraja's original 55-line ASCII portrait from the Yesu-3D-Portfolio project.</desc>
   <defs>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#8ee7d5"/>
@@ -18,57 +18,104 @@
       .bright { fill: #eef4f7; }
       .mint { fill: #9be8d5; }
       .blue { fill: #96c5ff; }
-      .ascii { font-size: 16px; font-weight: 700; text-anchor: middle; fill: url(#accent); }
+      .ascii { font-family: "DejaVu Sans Mono", "Cascadia Mono", Consolas, monospace; font-size: 5.5px; font-weight: 600; text-anchor: middle; fill: url(#accent); white-space: pre; }
     </style>
   </defs>
 
-  <rect width="1200" height="350" rx="22" fill="#0b0f14"/>
-  <rect width="1200" height="350" rx="22" fill="url(#grid)"/>
-  <rect x="1" y="1" width="1198" height="348" rx="21" fill="none" stroke="#25313c"/>
-  <rect x="28" y="28" width="4" height="294" rx="2" fill="url(#accent)"/>
+  <rect width="1200" height="430" rx="22" fill="#0b0f14"/>
+  <rect width="1200" height="430" rx="22" fill="url(#grid)"/>
+  <rect x="1" y="1" width="1198" height="428" rx="21" fill="none" stroke="#25313c"/>
+  <rect x="28" y="28" width="4" height="374" rx="2" fill="url(#accent)"/>
 
   <text x="54" y="49" class="mono label mint">YESU166 / PERSONAL PROFILE</text>
-  <rect x="930" y="29" width="216" height="32" rx="16" fill="#131b24" stroke="#2b3948"/>
-  <text x="1038" y="49" text-anchor="middle" class="mono label bright" style="letter-spacing:1px">B.E. CSE · AI &amp; ML · YEAR 2</text>
+  <text x="650" y="49" text-anchor="end" class="mono label muted" style="letter-spacing:1px">BUILD · TEST · ITERATE</text>
 
-  <text x="52" y="132" class="mono bright" font-size="66" font-weight="800" letter-spacing="-3">YESURAJA</text>
-  <rect x="55" y="150" width="104" height="3" rx="1.5" fill="url(#accent)"/>
+  <text x="52" y="135" class="mono bright" font-size="63" font-weight="800" letter-spacing="-3">YESURAJA</text>
+  <rect x="55" y="153" width="104" height="3" rx="1.5" fill="url(#accent)"/>
 
-  <text x="54" y="190" class="mono" font-size="23" font-weight="600" fill="#dbe8ef">Applied AI &amp; Full-Stack Developer</text>
-  <text x="54" y="222" class="mono" font-size="14" fill="#9aa9b6">Building practical software across models, interfaces, and systems.</text>
+  <text x="54" y="193" class="mono" font-size="22" font-weight="600" fill="#dbe8ef">Applied AI &amp; Full-Stack Developer</text>
+  <text x="54" y="224" class="mono" font-size="14" fill="#9aa9b6">B.E. Computer Science &amp; Engineering · AI &amp; ML</text>
+  <text x="54" y="250" class="mono" font-size="14" fill="#9aa9b6">Learning through real projects, systems, and experiments.</text>
 
   <g class="mono" font-size="12">
-    <text x="54" y="276" class="mint">PYTHON</text>
-    <text x="126" y="276" class="muted">/</text>
-    <text x="145" y="276" class="blue">TYPESCRIPT</text>
-    <text x="244" y="276" class="muted">/</text>
-    <text x="263" y="276" class="mint">REACT</text>
-    <text x="322" y="276" class="muted">/</text>
-    <text x="341" y="276" class="blue">FASTAPI</text>
-    <text x="416" y="276" class="muted">/</text>
-    <text x="435" y="276" fill="#c2a3ff">THREE.JS</text>
+    <rect x="54" y="278" width="100" height="29" rx="7" fill="#111c23" stroke="#29423f"/>
+    <text x="104" y="296" text-anchor="middle" class="mint">PYTHON</text>
+    <rect x="164" y="278" width="124" height="29" rx="7" fill="#111b26" stroke="#293d52"/>
+    <text x="226" y="296" text-anchor="middle" class="blue">TYPESCRIPT</text>
+    <rect x="298" y="278" width="88" height="29" rx="7" fill="#111c23" stroke="#29423f"/>
+    <text x="342" y="296" text-anchor="middle" class="mint">REACT</text>
+    <rect x="396" y="278" width="105" height="29" rx="7" fill="#111b26" stroke="#293d52"/>
+    <text x="448.5" y="296" text-anchor="middle" class="blue">FASTAPI</text>
+    <rect x="511" y="278" width="112" height="29" rx="7" fill="#171425" stroke="#3e3157"/>
+    <text x="567" y="296" text-anchor="middle" fill="#c2a3ff">THREE.JS</text>
   </g>
-  <text x="54" y="315" class="mono label muted" style="letter-spacing:1.4px">LEARN BY BUILDING · TEST THE REAL THING</text>
 
-  <rect x="746" y="82" width="400" height="240" rx="13" fill="#101720" stroke="#2b3948"/>
-  <path d="M746 120H1146" stroke="#2b3948"/>
-  <circle cx="769" cy="101" r="4" fill="#f18a8a"/>
-  <circle cx="783" cy="101" r="4" fill="#e8c57a"/>
-  <circle cx="797" cy="101" r="4" fill="#8ee7d5"/>
-  <text x="817" y="105" class="mono label muted" style="letter-spacing:1.1px">ASCII MODE / STATIC</text>
-  <text x="1126" y="105" text-anchor="end" class="mono label mint" style="letter-spacing:1.1px">$ whoami</text>
+  <path d="M54 332H625" stroke="#25313c"/>
+  <text x="54" y="357" class="mono" font-size="13" fill="#c4d0da">Prototype fast. Test real behavior.</text>
+  <text x="54" y="381" class="mono" font-size="13" fill="#8d9baa">Keep the unfinished parts honest.</text>
 
-  <g class="mono ascii" xml:space="preserve">
-    <text x="946" y="148">      .-''''-.      </text>
-    <text x="946" y="167">    .'  .--.  '.    </text>
-    <text x="946" y="186">   /   /    \   \   </text>
-    <text x="946" y="205">  |   | o  o |   |  </text>
-    <text x="946" y="224">  |   |  __  |   |  </text>
-    <text x="946" y="243">   \   \____/   /   </text>
-    <text x="946" y="262">    '.  ____  .'    </text>
-    <text x="946" y="281">      '-.__.-'      </text>
-    <text x="946" y="300">        /||\        </text>
-    <text x="946" y="319">       /_||_\       </text>
+  <rect x="682" y="55" width="482" height="361" rx="14" fill="#0e151d" stroke="#2b3948"/>
+  <path d="M683 89H1163" stroke="#2b3948"/>
+  <circle cx="703" cy="72" r="4" fill="#f18a8a"/>
+  <circle cx="717" cy="72" r="4" fill="#e8c57a"/>
+  <circle cx="731" cy="72" r="4" fill="#8ee7d5"/>
+  <text x="751" y="76" class="mono label muted" style="letter-spacing:1px">ORIGINAL ASCII / aportrait.txt</text>
+  <g class="ascii" xml:space="preserve">
+    <text x="930" y="94" xml:space="preserve">-------==---------------------------------------------------------------------------------==========</text>
+    <text x="930" y="99.75" xml:space="preserve">-------------------------------------------------------------------------------------------=========</text>
+    <text x="930" y="105.5" xml:space="preserve">-------------------------------------------:::::::::::::------------------------------------========</text>
+    <text x="930" y="111.25" xml:space="preserve">---------------------------------------:::::::::::::::::::-------------------------------------=====</text>
+    <text x="930" y="117" xml:space="preserve">-----------------------------------:::::::::::-:::::::::::::::---------------------------------=====</text>
+    <text x="930" y="122.75" xml:space="preserve">----------------------------------::::::-=+#%%%%%*++++++-:::::::----------------------------------==</text>
+    <text x="930" y="128.5" xml:space="preserve">---------------------------------:::::=%%%%%%@@@@@@@@%#%%#*+-=:::::::----------------------------===</text>
+    <text x="930" y="134.25" xml:space="preserve">--------------------------------::::-*%%@@@@@@@@@@@@@@@@@@@@%+**:::::--:--------------------------==</text>
+    <text x="930" y="140" xml:space="preserve">--------------------------------::-*%%@@@@@@@@@@@@@@@@@@@@@@@@%%*-:-==+-----------------------------</text>
+    <text x="930" y="145.75" xml:space="preserve">-------------------------------::-*%@@@@@@@@@@@@@@@@@@@@@@@@@@@@%#===++-----------------------------</text>
+    <text x="930" y="151.5" xml:space="preserve">-----------------------------:::=%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%#+------------------------------</text>
+    <text x="930" y="157.25" xml:space="preserve">--------------------------:::::=#%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%+-=::--------------------------</text>
+    <text x="930" y="163" xml:space="preserve">---------------------------:::=#%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*+::--------------------------</text>
+    <text x="930" y="168.75" xml:space="preserve">--------------------------::::+%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%++-:--------------------------</text>
+    <text x="930" y="174.5" xml:space="preserve">-------------------------::::-#%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%#+-::--------------------------</text>
+    <text x="930" y="180.25" xml:space="preserve">-----------------------::::::-*%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%#=-::::--------------------------</text>
+    <text x="930" y="186" xml:space="preserve">----------------------::::::::-=#@@@@@@@@@@@@@@%###%%%%@%%%%@@@%+==-:::::---------------------------</text>
+    <text x="930" y="191.75" xml:space="preserve">------------------:::::::::::::::-#%@@@@%@@@%####***##%%###*#@@*:::::::::::-------------------------</text>
+    <text x="930" y="197.5" xml:space="preserve">------------------::::::::::::::::-%%*%@@%#*++++++++**%%%%%##@@--:::::::::::------------------------</text>
+    <text x="930" y="203.25" xml:space="preserve">----------------::::::::::::::::-*+*#+##%%@@%#+==+*%%@%%%%###@%##+:::::::::::-----------------------</text>
+    <text x="930" y="209" xml:space="preserve">---------------:::::::::::::::::-*====*#=*@++*++=*#%%=%@*%%#*%##%+:::::::::::::---------------------</text>
+    <text x="930" y="214.75" xml:space="preserve">----------------:::::::::::::::::==+====+++++++==*###*********%%#-::::::::::::----------------------</text>
+    <text x="930" y="220.5" xml:space="preserve">--------------:::::::::::::::::::-+*=============+****+++++***%#+:::::::::::::::--------------------</text>
+    <text x="930" y="226.25" xml:space="preserve">--------------::::::::::::::::::::======-----===-+***+++++***##*-:::::::::::::::--------------------</text>
+    <text x="930" y="232" xml:space="preserve">--------------:::::::::::::::::::::======----===-+**#*+++****#*-::::::::::::::::--------------------</text>
+    <text x="930" y="237.75" xml:space="preserve">----------------:::::::::::::::::::::-====---===-+**#*+*****=:::::::::::::::::::--------------------</text>
+    <text x="930" y="243.5" xml:space="preserve">---------------:--:::::::::::::::::::-========+++#%#*****#**-:::::::::::::::::::--------------------</text>
+    <text x="930" y="249.25" xml:space="preserve">-------------:-:::::::::::::::::::::::-====*####**#%%%%%#*#=::::::::::::::::::----------------------</text>
+    <text x="930" y="255" xml:space="preserve">---------------::::::::::::::::::::::::-===+*#***##%%%####*-::::::::::::::::::::--------------------</text>
+    <text x="930" y="260.75" xml:space="preserve">-----------------::::::::::::::::::::::=+==+++++++*########++-:::::::::::::::::---------------------</text>
+    <text x="930" y="266.5" xml:space="preserve">----------------:::::::::::::::::::::-%:+++++++***#########--@=::::::::::::::::---------------------</text>
+    <text x="930" y="272.25" xml:space="preserve">------------------:::::::::::::::::-#%%..=++++*+**##%%####-:-@@#=::::::::::::-----------------------</text>
+    <text x="930" y="278" xml:space="preserve">------------------::::::::::::-=*%%%%%@:..:++*%%%%@%%%##*:::=@@@@@%+--:::::::-----------------------</text>
+    <text x="930" y="283.75" xml:space="preserve">------------------::::::::--#%@@@%%%%%@=....-+++++*###*:::::*@@@@@@@@@@#--::------------------------</text>
+    <text x="930" y="289.5" xml:space="preserve">-------------------::::-#%@@@@@@@@%%@@@#......:*****#:..:::-#@@@@@@@@@@@@@%#------------------------</text>
+    <text x="930" y="295.25" xml:space="preserve">-------------------+#%%%@@@@@@@@@@@@@@@%=.......=--:....:::-%@@@@@@@@@@@@@@@@@%#=-------------------</text>
+    <text x="930" y="301" xml:space="preserve">--------------=*%%%%@@@@@@@@@@@@@@@@@@@@*....=%%%@@@@%-::::=@@@@@@@@@@@@@@@@@@@@@@%#=---------------</text>
+    <text x="930" y="306.75" xml:space="preserve">-------------*%@@@@@@@@@@@@@@@@@@@@@@@@@%-.:=:=@%%@@@*=-:::*@@@@@@@@@@@@@@@@@@@@@@@@@%=-------------</text>
+    <text x="930" y="312.5" xml:space="preserve">-------------%@@@@@@@@@@@@@@@@@@@@@@@@@@%=:..:::@%@@+=:::::#@@@@@@@@@@@@@@@@@@@@@@@@@@#------------=</text>
+    <text x="930" y="318.25" xml:space="preserve">------------+%@@@@@@@@@@@@@@@@@@@@@@@@@@@=:...:.%@@%=:..:::%@@@@@@@@@@@@@@@@@@@@@@@@@@%=-----------=</text>
+    <text x="930" y="324" xml:space="preserve">-----------=%%@@@@@@@@@@@@@@@@@@@@@@@@@@@+:..::*@%@@+:..::=@@@@@@@@@@@@@@@@@@@@@@@@@@@@%---------===</text>
+    <text x="930" y="329.75" xml:space="preserve">-----------*%%@@@@@@@@@@@@@@@@@@@@@@@@@@@*-..:+%@%@@@-..-:+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*--------===</text>
+    <text x="930" y="335.5" xml:space="preserve">----------=%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@%-..:*%%%@@@*.:-:%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%=-----=-===</text>
+    <text x="930" y="341.25" xml:space="preserve">----------%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@=.::%%%@@@@#.:--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#---=======</text>
+    <text x="930" y="347" xml:space="preserve">---------+%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@*:::%%@@@@@%.:-*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+--=======</text>
+    <text x="930" y="352.75" xml:space="preserve">=--------#%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%-:-@@@@@@@%.:-%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*--=======</text>
+    <text x="930" y="358.5" xml:space="preserve">=-------+%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@=:=@@@@@@@@..=@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%=========</text>
+    <text x="930" y="364.25" xml:space="preserve">===-----#%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+-*@@@@@@@@:.#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+========</text>
+    <text x="930" y="370" xml:space="preserve">===----=%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%=#@@@@@@@@::@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#========</text>
+    <text x="930" y="375.75" xml:space="preserve">====---*%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+%@@@@@@@@:+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%========</text>
+    <text x="930" y="381.5" xml:space="preserve">=====--#%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%@@@@@@@@:#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+=======</text>
+    <text x="930" y="387.25" xml:space="preserve">=======%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@=@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*=======</text>
+    <text x="930" y="393" xml:space="preserve">======+%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%=======</text>
+    <text x="930" y="398.75" xml:space="preserve">======#%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+======</text>
+    <text x="930" y="404.5" xml:space="preserve">======%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#======</text>
   </g>
-  <path d="M1146 82H1166V102M746 302V322H766" fill="none" stroke="url(#accent)" stroke-width="1.5" opacity=".85"/>
+  <path d="M1144 55H1164V75M682 396V416H702" fill="none" stroke="url(#accent)" stroke-width="1.5" opacity=".85"/>
 </svg>
