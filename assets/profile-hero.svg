@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 350" role="img" aria-labelledby="title desc">
   <title id="title">Yesuraja — Applied AI and Full-Stack Developer</title>
-  <desc id="desc">A minimal dark terminal-inspired profile banner for Yesuraja, a second-year Computer Science and Engineering student specializing in AI and Machine Learning.</desc>
+  <desc id="desc">A terminal-inspired profile banner with Yesuraja's identity and original ASCII portrait.</desc>
   <defs>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#8ee7d5"/>
@@ -18,6 +18,7 @@
       .bright { fill: #eef4f7; }
       .mint { fill: #9be8d5; }
       .blue { fill: #96c5ff; }
+      .ascii { font-size: 16px; font-weight: 700; text-anchor: middle; fill: url(#accent); }
     </style>
   </defs>
 
@@ -49,26 +50,25 @@
   </g>
   <text x="54" y="315" class="mono label muted" style="letter-spacing:1.4px">LEARN BY BUILDING · TEST THE REAL THING</text>
 
-  <rect x="746" y="82" width="400" height="218" rx="13" fill="#101720" stroke="#2b3948"/>
+  <rect x="746" y="82" width="400" height="240" rx="13" fill="#101720" stroke="#2b3948"/>
   <path d="M746 120H1146" stroke="#2b3948"/>
   <circle cx="769" cy="101" r="4" fill="#f18a8a"/>
   <circle cx="783" cy="101" r="4" fill="#e8c57a"/>
   <circle cx="797" cy="101" r="4" fill="#8ee7d5"/>
-  <text x="1126" y="105" text-anchor="end" class="mono label muted" style="letter-spacing:1.1px">SYSTEM LOOP / 001</text>
+  <text x="817" y="105" class="mono label muted" style="letter-spacing:1.1px">ASCII MODE / STATIC</text>
+  <text x="1126" y="105" text-anchor="end" class="mono label mint" style="letter-spacing:1.1px">$ whoami</text>
 
-  <g class="mono">
-    <text x="772" y="153" class="mint" font-size="15">&gt; observe()</text>
-    <text x="925" y="153" class="muted" font-size="12">capture state</text>
-    <text x="772" y="194" class="blue" font-size="15">&gt; act()</text>
-    <text x="925" y="194" class="muted" font-size="12">bounded action</text>
-    <text x="772" y="235" fill="#c2a3ff" font-size="15">&gt; verify()</text>
-    <text x="925" y="235" class="muted" font-size="12">check evidence</text>
-    <path d="M780 163V178M780 204V219" stroke="#475969" stroke-width="1.5" stroke-linecap="round"/>
-    <path d="M776 174L780 179L784 174M776 215L780 220L784 215" fill="none" stroke="#475969" stroke-width="1.5"/>
+  <g class="mono ascii" xml:space="preserve">
+    <text x="946" y="148">      .-''''-.      </text>
+    <text x="946" y="167">    .'  .--.  '.    </text>
+    <text x="946" y="186">   /   /    \   \   </text>
+    <text x="946" y="205">  |   | o  o |   |  </text>
+    <text x="946" y="224">  |   |  __  |   |  </text>
+    <text x="946" y="243">   \   \____/   /   </text>
+    <text x="946" y="262">    '.  ____  .'    </text>
+    <text x="946" y="281">      '-.__.-'      </text>
+    <text x="946" y="300">        /||\        </text>
+    <text x="946" y="319">       /_||_\       </text>
   </g>
-
-  <path d="M772 260H1120" stroke="#2b3948"/>
-  <text x="772" y="281" class="mono label muted" style="letter-spacing:1.15px">AI / FULL-STACK / INTERACTIVE SYSTEMS</text>
-
-  <path d="M1146 82H1166V102M746 280V300H766" fill="none" stroke="url(#accent)" stroke-width="1.5" opacity=".85"/>
+  <path d="M1146 82H1166V102M746 302V322H766" fill="none" stroke="url(#accent)" stroke-width="1.5" opacity=".85"/>
 </svg>
