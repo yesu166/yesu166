@@ -28,14 +28,12 @@
   <rect x="28" y="28" width="4" height="374" rx="2" fill="url(#accent)"/>
 
   <text x="54" y="49" class="mono label mint">YESU166 / PERSONAL PROFILE</text>
-  <text x="650" y="49" text-anchor="end" class="mono label muted" style="letter-spacing:1px">BUILD · TEST · ITERATE</text>
 
   <text x="52" y="135" class="mono bright" font-size="63" font-weight="800" letter-spacing="-3">YESURAJA</text>
   <rect x="55" y="153" width="104" height="3" rx="1.5" fill="url(#accent)"/>
 
   <text x="54" y="193" class="mono" font-size="22" font-weight="600" fill="#dbe8ef">Applied AI &amp; Full-Stack Developer</text>
   <text x="54" y="224" class="mono" font-size="14" fill="#9aa9b6">B.E. Computer Science &amp; Engineering · AI &amp; ML</text>
-  <text x="54" y="250" class="mono" font-size="14" fill="#9aa9b6">Learning through real projects, systems, and experiments.</text>
 
   <g class="mono" font-size="12">
     <rect x="54" y="278" width="100" height="29" rx="7" fill="#111c23" stroke="#29423f"/>
@@ -51,8 +49,8 @@
   </g>
 
   <path d="M54 332H625" stroke="#25313c"/>
-  <text x="54" y="357" class="mono" font-size="13" fill="#c4d0da">Prototype fast. Test real behavior.</text>
-  <text x="54" y="381" class="mono" font-size="13" fill="#8d9baa">Keep the unfinished parts honest.</text>
+  <text x="54" y="357" class="mono label muted" style="letter-spacing:1px">SELECTED PROJECTS</text>
+  <text x="54" y="381" class="mono" font-size="13" fill="#c4d0da">HONEYCHAIN · SPECTRA · 3D PORTFOLIO</text>
 
   <rect x="682" y="55" width="482" height="361" rx="14" fill="#0e151d" stroke="#2b3948"/>
   <path d="M683 89H1163" stroke="#2b3948"/>
