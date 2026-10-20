@@ -8,9 +8,9 @@
 </p>
 
 <p>
-  <a href="https://github.com/yesu166/HoneyChain-Hexanexus">HoneyChain</a> ·
-  <a href="https://github.com/yesu166/SPECTRA">SPECTRA</a> ·
-  <a href="https://github.com/yesu166/Yesu-3D-Portfolio">3D Portfolio</a>
+  <a href="https://github.com/yesu166/HoneyChain-Hexanexus"></a> ·
+  <a href="https://github.com/yesu166/SPECTRA"></a> ·
+  <a href="https://github.com/yesu166/Yesu-3D-Portfolio"></a>
 </p>
 
 </div>
