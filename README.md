@@ -107,3 +107,7 @@ Building software that is useful outside a demo: clear interfaces, predictable A
 - Explore: [all repositories](https://github.com/yesu166?tab=repositories)
 
 <sub>My profile is a map of the work. Each repository is the source of truth for implementation details, current status, and setup instructions.</sub>
+
+## Project brief
+
+For the project's purpose, scope, current maturity, proposed roadmap, limitations, and collaboration opportunities, see [PROJECT_BRIEF.md](PROJECT_BRIEF.md).
